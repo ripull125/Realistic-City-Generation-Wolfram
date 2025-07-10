@@ -10,29 +10,14 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[   2527729,      43468]
-NotebookOptionsPosition[   2454655,      42262]
-NotebookOutlinePosition[   2500934,      43115]
-CellTagsIndexPosition[   2500891,      43112]
+NotebookDataLength[   2480840,      42600]
+NotebookOptionsPosition[   2453977,      42237]
+NotebookOutlinePosition[   2454477,      42256]
+CellTagsIndexPosition[   2454434,      42253]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
-Cell["Generating Realistic Cities with Perlin Noise", "Title",
- CellChangeTimes->{{3.960971033335541*^9, 
-  3.960971057468356*^9}},ExpressionUUID->"05282374-c37c-45f5-b5f5-\
-21d242d0f34f"],
-
-Cell[CellGroupData[{
-
-Cell["Abstract", "Section",
- CellChangeTimes->{{3.960971109938579*^9, 3.960971115302596*^9}, {
-  3.961060905854216*^9, 
-  3.96106093313938*^9}},ExpressionUUID->"daa32144-b26b-4b7b-9bd5-\
-ef7b572fff5c"],
-
 Cell["\<\
 Perlin Noise is a procedural generation algorithm that creates pseudorandom \
 values that can be used for the generation of realistic patterns. It takes in \
@@ -44,8 +29,7 @@ a generation of a city.\
  CellChangeTimes->{{3.960971064668829*^9, 3.9609711030065317`*^9}, {
   3.96116367392177*^9, 3.9611637484822073`*^9}, {3.961163826512776*^9, 
   3.961163891340876*^9}},ExpressionUUID->"d3a4b610-fa17-4356-8832-\
-0e90213054fe"]
-}, Open  ]],
+0e90213054fe"],
 
 Cell[CellGroupData[{
 
@@ -28163,15 +28147,7 @@ decision whether to place a road or not every iteration."
   3.9611592008410463`*^9, 3.961159242338426*^9}, {3.961159727884234*^9, 
   3.961159753367334*^9}, {3.9611652629567337`*^9, 
   3.961165441769875*^9}},ExpressionUUID->"7b4aa123-0088-4c8f-90b6-\
-8da76dd7fe83"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["Code", "Subsubsection",
- CellChangeTimes->{{3.961159346411923*^9, 3.961159349727133*^9}, 
-   3.961165445221383*^9},ExpressionUUID->"5eba054a-dc28-4af4-b835-\
-42b4ad11f33b"],
+8da76dd7fe83"],
 
 Cell[BoxData[
  RowBox[{" ", 
@@ -42258,847 +42234,12 @@ Perlin, K. (2002). Improving noise. ACM Transactions on Graphics, 21(3), 681\
    3.96107785301989*^9}},ExpressionUUID->"e784d100-745c-4024-ba32-\
 cc227456b741"]
 }, Open  ]]
-}, Open  ]]
 },
 WindowSize->{875, 911},
 WindowMargins->{{Automatic, 55}, {69, Automatic}},
-DockedCells->{
-  Cell[
-   BoxData[
-    DynamicModuleBox[{LinterUIDockedCell`Private`notebook$$}, 
-     GraphicsBox[{
-       InsetBox[
-        TemplateBox[{
-          PaneBox[
-           StyleBox[
-           "\"Code Analysis\"", FontColor -> GrayLevel[0.4], FontFamily -> 
-            "Source Sans Pro", FontWeight -> Plain, FontSize -> 13, 
-            StripOnInput -> False], 
-           BaselinePosition -> (Baseline -> Scaled[0.65])], 
-          TemplateBox[{8}, "Spacer1"], 
-          PaneBox[
-           
-           PaneSelectorBox[{{False, False} -> 
-             TemplateBox[{0}, "Spacer1"], {True, False} -> 
-             TemplateBox[{0}, "Spacer1"], {True, True} -> PaneBox[
-               InterpretationBox[
-                DynamicBox[
-                 FEPrivate`FrontEndResource[
-                 "FEExpressions", "PercolateAnimator"][Medium]], 
-                ProgressIndicator[Appearance -> "Percolate"], 
-                BaseStyle -> {"Deploy"}], BaselinePosition -> Scaled[0.05]], {
-              False, True} -> 
-             DynamicModuleBox[{
-               CodeInspector`LinterUI`Private`tracker$$ = 
-                CodeInspector`LinterUI`Private`DynamicTriggers`\
-dockedCellLintCounts}, 
-               DynamicWrapperBox[
-                DynamicBox[
-                 ToBoxes[
-                 CodeInspector`LinterUI`Private`tracker$$; 
-                  LinterUIDockedCell`Private`dockedCellSeverityCountsButton[
-                   LinterUIDockedCell`Private`notebook$$], TraditionalForm], 
-                 TrackedSymbols :> {
-                  CodeInspector`LinterUI`Private`tracker$$}], 
-                If[
-                CodeInspector`LinterUI`Private`tracker$$ =!= 
-                 CodeInspector`LinterUI`Private`DynamicTriggers`\
-dockedCellLintCounts, CodeInspector`LinterUI`Private`tracker$$ = 
-                 CodeInspector`LinterUI`Private`DynamicTriggers`\
-dockedCellLintCounts]], DynamicModuleValues :> {}]}, 
-            Dynamic[FEPrivate`EvaluatorStatus["Local"]; {
-               CodeInspector`LinterUI`Private`varValue[
-               LinterUIDockedCell`Private`notebook$$, "AnalysisInProgressQ"], 
-               
-               TrueQ[
-                CodeInspector`LinterUI`Private`varValue[
-                LinterUIDockedCell`Private`notebook$$, 
-                 "DockedCellPresentQ"]]}], ImageSize -> Automatic], 
-           BaselinePosition -> Scaled[0.15]]}, "Row", 
-         DisplayFunction -> (PaneBox[
-           RowBox[{
-             TemplateSlotSequence[1, "\[InvisibleSpace]"]}], Alignment -> 
-           Baseline]& ), InterpretationFunction -> (RowBox[{"Row", "[", 
-            RowBox[{
-              RowBox[{"{", 
-                TemplateSlotSequence[1, ","], "}"}], ",", 
-              RowBox[{"Alignment", "\[Rule]", "Baseline"}]}], "]"}]& )], 
-        Offset[{8, 0}, {-1, 0}], {-1, 0}], 
-       InsetBox[
-        PaneSelectorBox[{
-         True -> DynamicModuleBox[{
-            CodeInspector`LinterUI`Private`hoverQ$$ = False, 
-             CodeInspector`LinterUI`Private`mouseDownQ$$ = False, 
-             CodeInspector`LinterUI`Private`fontColor$$}, 
-            ButtonBox[
-             DynamicWrapperBox[
-              TemplateBox[{
-                DynamicWrapperBox[
-                 StyleBox[
-                  PaneBox[
-                  "\"Reanalyze Notebook\"", ContentPadding -> True, 
-                   FrameMargins -> None, BaselinePosition -> Baseline], 
-                  FontColor -> 
-                  Dynamic[CodeInspector`LinterUI`Private`fontColor$$], 
-                  FontColor -> GrayLevel[0.2], FontFamily -> 
-                  "Source Sans Pro", FontWeight -> Plain, FontSize -> 14, 
-                  StripOnInput -> False], 
-                 CodeInspector`LinterUI`Private`fontColor$$ = Which[
-                   TrueQ[
-                    Not[
-                    
-                    OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "ActiveQ"]]], 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "TextInactiveColor"], 
-                   CodeInspector`LinterUI`Private`hoverQ$$, 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "TextHoverColor"], True, 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "TextColor"]]], ContentPadding -> False, 
-                FrameMargins -> {{9, 9}, {0, 0}}, 
-                Alignment -> {Center, Center}, ImageSize -> {Automatic, 19}, 
-                RoundingRadius -> 3, FrameStyle -> Dynamic[
-                  Directive[
-                   AbsoluteThickness[0.5], 
-                   Which[
-                    TrueQ[
-                    Not[
-                    
-                    OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "ActiveQ"]]], 
-                    
-                    OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "EdgeInactiveColor"], 
-                    CodeInspector`LinterUI`Private`hoverQ$$, 
-                    
-                    OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "EdgeHoverColor"], True, 
-                    
-                    OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "EdgeColor"]]]], Background -> Dynamic[
-                  Which[
-                   TrueQ[
-                    Not[
-                    
-                    OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "ActiveQ"]]], 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "BackInactiveColor"], 
-                   And[
-                   CodeInspector`LinterUI`Private`hoverQ$$, 
-                    CodeInspector`LinterUI`Private`mouseDownQ$$], 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "BackMouseDownColor"], 
-                   CodeInspector`LinterUI`Private`hoverQ$$, 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "BackHoverColor"], True, 
-                   
-                   OptionValue[{
-                    ImageSize -> {Automatic, 19}, 
-                    FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                    Baseline, Alignment -> {Center, Center}, Method -> 
-                    "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                    "TextHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                    "BackHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                    CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                    "EdgeHoverColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                    CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, 
-                    "BackColor"]]]}, "Highlighted"], 
-              CodeInspector`LinterUI`Private`hoverQ$$ = 
-               CurrentValue["MouseOver"]; 
-              CodeInspector`LinterUI`Private`mouseDownQ$$ = 
-               CurrentValue["MouseButtonTest"]], 
-             Appearance -> {
-              "Default" -> 
-               Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 
-                  0, 0, 255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 
-                  0, 0}, {0, 0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 
-                  255}, {255, 255, 255, 255}}}], "Byte", ColorSpace -> "RGB", 
-                 ImageResolution -> {72, 72}, Interleaving -> True], "Hover" -> 
-               Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 
-                  0, 0, 255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 
-                  0, 0}, {0, 0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 
-                  255}, {255, 255, 255, 255}}}], "Byte", ColorSpace -> "RGB", 
-                 ImageResolution -> {72, 72}, Interleaving -> True], 
-               "Pressed" -> 
-               Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 
-                  0, 0, 255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 
-                  0, 0}, {0, 0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 
-                  255}, {255, 255, 255, 255}}}], "Byte", ColorSpace -> "RGB", 
-                 ImageResolution -> {72, 72}, Interleaving -> True]}, 
-             BaselinePosition -> Baseline, 
-             ButtonFunction :> (
-              If[OptionValue[{
-                  ImageSize -> {Automatic, 19}, 
-                   FrameMargins -> {9 {1, 1}, 0 {1, 1}}, BaselinePosition -> 
-                   Baseline, Alignment -> {Center, Center}, Method -> 
-                   "Preemptive", "ActiveQ" -> True, "TextColor" -> 
-                   CodeInspector`LinterUI`Private`colorData["ButtonText"], 
-                   "TextHoverColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextHover"], "TextInactiveColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonTextInactive"], "BackColor" -> 
-                   CodeInspector`LinterUI`Private`colorData["ButtonBack"], 
-                   "BackHoverColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackHover"], "BackMouseDownColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackMouseDown"], "BackInactiveColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonBackInactive"], "EdgeColor" -> 
-                   CodeInspector`LinterUI`Private`colorData["ButtonEdge"], 
-                   "EdgeHoverColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeHover"], "EdgeInactiveColor" -> 
-                   CodeInspector`LinterUI`Private`colorData[
-                    "ButtonEdgeInactive"]}, {Method -> "Queued"}, "ActiveQ"] =!= 
-                False, 
-                CodeInspector`LinterUI`Private`attachAnalysisAction[
-                 EvaluationNotebook[]]]; 
-              CodeInspector`LinterUI`Private`mouseDownQ$$ = False), 
-             ContentPadding -> False, Evaluator -> Automatic, Method -> 
-             "Queued"], DynamicModuleValues :> {}], False -> ButtonBox[
-            TemplateBox[{
-              StyleBox[
-              "\"Analyze Notebook\"", FontColor -> GrayLevel[0.2], FontFamily -> 
-               "Source Sans Pro", FontWeight -> Plain, FontSize -> 14, 
-               StripOnInput -> False], ImageSize -> {Automatic, 19}, 
-              FrameMargins -> {{9, 9}, {0, 0}}, BaselinePosition -> Baseline, 
-              Alignment -> {Center, Center}, Background -> GrayLevel[1], 
-              FrameStyle -> Dynamic[
-                If[
-                 CurrentValue["MouseOver"], 
-                 Hue[0.55, 0.82, 0.87], 
-                 GrayLevel[0.8]]]}, "Highlighted"], 
-            Appearance -> {
-             "Default" -> 
-              Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0,
-                  0, 255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 0, 
-                 0}, {0, 0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {
-                 255, 255, 255, 255}}}], "Byte", ColorSpace -> "RGB", 
-                ImageResolution -> {72, 72}, Interleaving -> True], "Hover" -> 
-              Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0,
-                  0, 255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 0, 
-                 0}, {0, 0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {
-                 255, 255, 255, 255}}}], "Byte", ColorSpace -> "RGB", 
-                ImageResolution -> {72, 72}, Interleaving -> True], "Pressed" -> 
-              Image[RawArray["UnsignedInteger8",{{{255, 255, 255, 255}, {0, 0,
-                  0, 255}, {255, 255, 255, 255}}, {{0, 0, 0, 255}, {0, 0, 0, 
-                 0}, {0, 0, 0, 255}}, {{255, 255, 255, 255}, {0, 0, 0, 255}, {
-                 255, 255, 255, 255}}}], "Byte", ColorSpace -> "RGB", 
-                ImageResolution -> {72, 72}, Interleaving -> True]}, 
-            ButtonFunction :> (CurrentValue[
-                EvaluationNotebook[], DockedCells] = 
-              With[{LinterUIDockedCell`Private`dockedCells = CurrentValue[
-                   EvaluationNotebook[], DockedCells]}, 
-                Pick[LinterUIDockedCell`Private`dockedCells, 
-                 Map[Quiet[
-                    Options[#, CellTags]] =!= {
-                   CellTags -> "CodeAnalysisDockedCell"}& , 
-                  LinterUIDockedCell`Private`dockedCells]]]; 
-             Needs["CodeInspector`"]; 
-             CodeInspector`AttachAnalysis[
-              LinterUIDockedCell`Private`notebook$$]), Evaluator -> Automatic,
-             Method -> "Queued"]}, 
-         Dynamic[FEPrivate`EvaluatorStatus["Local"]; TrueQ[
-            CodeInspector`LinterUI`Private`varValue[
-            LinterUIDockedCell`Private`notebook$$, "DockedCellPresentQ"]]], 
-         ImageSize -> Automatic], 
-        Offset[{-26, 0}, {1, 0}], {1, 0}], 
-       TagBox[
-        TagBox[
-         TooltipBox[{{
-            GrayLevel[0.6], 
-            DiskBox[
-             Offset[{-11, 0}, {1, 0}], 
-             Offset[6]]}, {
-            GrayLevel[0.97], 
-            AbsoluteThickness[1.5], 
-            CapForm["Round"], 
-            LineBox[{{
-               Offset[{-13, 2}, {1, 0}], 
-               Offset[{-9, -2}, {1, 0}]}, {
-               Offset[{-13, -2}, {1, 0}], 
-               Offset[{-9, 2}, {1, 0}]}}]}}, "\"Close analysis\"", 
-          TooltipDelay -> 0, TooltipStyle -> "TextStyling"], 
-         Annotation[#, "Close analysis", "Tooltip"]& ], 
-        EventHandlerTag[{"MouseClicked" :> (Map[NotebookDelete, 
-             Flatten[
-              CodeInspector`LinterUI`Private`varValue[
-              LinterUIDockedCell`Private`notebook$$, All, 
-               "UIAttachedCells"]]]; Map[NotebookDelete, 
-             Flatten[
-              CodeInspector`LinterUI`Private`varValue[
-              LinterUIDockedCell`Private`notebook$$, All, 
-               "CleanCellBracketMarker"]]]; CurrentValue[
-              EvaluationNotebook[], DockedCells] = 
-            With[{LinterUIDockedCell`Private`dockedCells = CurrentValue[
-                 EvaluationNotebook[], DockedCells]}, 
-              Pick[LinterUIDockedCell`Private`dockedCells, 
-               Map[Quiet[
-                  Options[#, CellTags]] =!= {
-                 CellTags -> "CodeAnalysisDockedCell"}& , 
-                LinterUIDockedCell`Private`dockedCells]]]; 
-           CodeInspector`LinterUI`Private`applyToVar[Remove, {
-              EvaluationNotebook[], All}]; 
-           CodeInspector`LinterUI`Private`varSet[{
-             LinterUIDockedCell`Private`notebook$$, "DockedCellPresentQ"}, 
-             False]), Method -> "Preemptive", PassEventsDown -> Automatic, 
-          PassEventsUp -> True}]]}, AspectRatio -> Full, 
-      ImageSize -> {Full, 23}, PlotRange -> {{-1, 1}, {-1, 1}}], 
-     Deinitialization :> 
-     CodeInspector`LinterUI`Private`varSet[{
-       LinterUIDockedCell`Private`notebook$$, "DockedCellPresentQ"}, False], 
-     DynamicModuleValues :> {}, 
-     Initialization :> ({
-       LinterUIDockedCell`Private`dockedCellSeverityCountsButton[
-          Pattern[LinterUIDockedCell`Private`notebook, 
-           Blank[NotebookObject]]] := 
-        With[{LinterUIDockedCell`Private`formatIcon = 
-           Show[#, ImageSize -> {13, 9}, BaselinePosition -> Scaled[-0.2]]& }, 
-          ActionMenu[
-           Highlighted[
-            Row[{
-              CodeInspector`LinterUI`Private`lintSeverityCountsIconRow[
-              LinterUIDockedCell`Private`notebook, "exclamSize" -> 12, 
-               FontSize -> 14, FontWeight -> Plain], 
-              Spacer[2], 
-              LinterUIDockedCell`Private`formatIcon[
-               CodeInspector`LinterUI`Private`iconData["DownChevron"][
-                CodeInspector`LinterUI`Private`colorData["UIDark"]]]}], 
-            ImageSize -> {Automatic, 19}, BaselinePosition -> Baseline, 
-            Background -> White, Frame -> True, FrameStyle -> Dynamic[
-              If[
-               CurrentValue["MouseOver"], 
-               Hue[0.55, 0.82, 0.87], 
-               GrayLevel[0.8]]], FrameMargins -> {6 {1, 1}, {1, 1}}, 
-            Alignment -> {Center, Baseline}], 
-           Map[
-           LinterUIDockedCell`Private`dockedCellMenuItem[
-            LinterUIDockedCell`Private`notebook, #]& , 
-            CodeInspector`LinterUI`Private`varValue[
-            LinterUIDockedCell`Private`notebook, All, "Cell"]], Appearance -> 
-           None]], LinterUIDockedCell`Private`dockedCellMenuItem[
-          Pattern[LinterUIDockedCell`Private`notebook, 
-           Blank[NotebookObject]], 
-          Pattern[LinterUIDockedCell`Private`cell, 
-           Blank[CellObject]]] := With[{}, Graphics[{
-             Inset[
-              With[{LinterUIDockedCell`Private`expressionString = First[
-                  FrontEndExecute[
-                   FrontEnd`ExportPacket[
-                    First[
-                    CodeInspector`LinterUI`Private`varValue[
-                    LinterUIDockedCell`Private`notebook, 
-                    LinterUIDockedCell`Private`cell, "CellContents"]], 
-                    "InputText"]]]}, {
-               LinterUIDockedCell`Private`noLineBreaks = 
-                StringReplace[
-                 LinterUIDockedCell`Private`expressionString, "\n" -> " "]}, {
-               LinterUIDockedCell`Private`previewString = 
-                StringTake[LinterUIDockedCell`Private`noLineBreaks, {1, 
-                   UpTo[LinterUIDockedCell`Private`$previewLength]}]}, 
-               CodeInspector`LinterUI`Private`styleData["FixedWidth"][
-                If[
-                StringLength[LinterUIDockedCell`Private`expressionString] > 
-                 LinterUIDockedCell`Private`$previewLength, 
-                 StringDrop[LinterUIDockedCell`Private`previewString, -1] <> 
-                 "\[Ellipsis]", 
-                 LinterUIDockedCell`Private`previewString]]], {-1, 0}, {-1, 
-              0}], 
-             Inset[
-              CodeInspector`LinterUI`Private`lintSeverityCountsIconRow[
-              LinterUIDockedCell`Private`cell], {1, 0}, {1, 0}]}, 
-            ImageSize -> {300, 25}, AspectRatio -> Full, 
-            PlotRange -> {{-1, 1}, {-1, 1}}, ImagePadding -> None] :> (
-           SelectionMove[LinterUIDockedCell`Private`cell, All, Cell]; 
-           With[{
-             LinterUIDockedCell`Private`nb = 
-              ParentNotebook[LinterUIDockedCell`Private`cell]}, 
-             FrontEndExecute[
-              FrontEnd`FrontEndToken[
-              LinterUIDockedCell`Private`nb, "OpenSelectionParents"]]]; 
-           SelectionMove[LinterUIDockedCell`Private`cell, After, Cell])], 
-        LinterUIDockedCell`Private`$previewLength = 28, 
-        CodeInspector`LinterUI`Private`applyToVar[
-          Pattern[CodeInspector`LinterUI`Private`function, 
-           Blank[]], {
-           Pattern[CodeInspector`LinterUI`Private`notebook, 
-            Blank[NotebookObject]], All, 
-           Pattern[CodeInspector`LinterUI`Private`name, 
-            Blank[String]]}, 
-          Pattern[CodeInspector`LinterUI`Private`args, 
-           BlankNullSequence[]]] := 
-        Map[Apply[CodeInspector`LinterUI`Private`function, 
-           Join[
-            ToHeldExpression[#], 
-            Hold[CodeInspector`LinterUI`Private`args]]]& , 
-          
-          Names[(CodeInspector`LinterUI`Private`varNameString[
-             CodeInspector`LinterUI`Private`notebook] <> "*") <> 
-           CodeInspector`LinterUI`Private`name]], Null, 
-        CodeInspector`LinterUI`Private`applyToVar[
-          Pattern[CodeInspector`LinterUI`Private`function, 
-           Blank[]], {
-           Pattern[CodeInspector`LinterUI`Private`nameArguments, 
-            BlankSequence[]], 
-           Pattern[CodeInspector`LinterUI`Private`name, 
-            Blank[String]]}, 
-          Pattern[CodeInspector`LinterUI`Private`args, 
-           BlankNullSequence[]]] := 
-        Apply[CodeInspector`LinterUI`Private`function, 
-          Join[
-           ToHeldExpression[
-            CodeInspector`LinterUI`Private`varNameString[
-            CodeInspector`LinterUI`Private`nameArguments]], 
-           Hold[CodeInspector`LinterUI`Private`args]]], Null, 
-        CodeInspector`LinterUI`Private`applyToVar[
-          Pattern[CodeInspector`LinterUI`Private`function, 
-           Blank[]], {
-           Pattern[CodeInspector`LinterUI`Private`nameArguments, 
-            BlankSequence[]], All}, 
-          Pattern[CodeInspector`LinterUI`Private`args, 
-           BlankNullSequence[]]] := 
-        Map[Apply[CodeInspector`LinterUI`Private`function, 
-           Join[
-            ToHeldExpression[#], 
-            Hold[CodeInspector`LinterUI`Private`args]]]& , 
-          Names[
-          CodeInspector`LinterUI`Private`varNameString[
-            CodeInspector`LinterUI`Private`nameArguments] <> "*"]], 
-        CodeInspector`LinterUI`Private`varValue[
-          Pattern[CodeInspector`LinterUI`Private`notebook, 
-           Blank[NotebookObject]], All, 
-          Pattern[CodeInspector`LinterUI`Private`name, 
-           Blank[String]]] := Map[Symbol, 
-          
-          Names[(CodeInspector`LinterUI`Private`varNameString[
-             CodeInspector`LinterUI`Private`notebook] <> "*") <> 
-           CodeInspector`LinterUI`Private`name]], Null, 
-        CodeInspector`LinterUI`Private`varValue[
-          Pattern[CodeInspector`LinterUI`Private`nameArguments, 
-           BlankSequence[]], 
-          Pattern[CodeInspector`LinterUI`Private`name, 
-           Blank[String]]] := Symbol[
-          CodeInspector`LinterUI`Private`varNameString[
-          CodeInspector`LinterUI`Private`nameArguments, 
-           CodeInspector`LinterUI`Private`name]], Null, 
-        CodeInspector`LinterUI`Private`varValue[
-          Pattern[CodeInspector`LinterUI`Private`nameArguments, 
-           BlankSequence[]], All] := Map[Symbol, 
-          Names[
-          CodeInspector`LinterUI`Private`varNameString[
-            CodeInspector`LinterUI`Private`nameArguments] <> "*"]], 
-        CodeInspector`LinterUI`Private`varSet[{
-           Pattern[CodeInspector`LinterUI`Private`nameArguments, 
-            BlankSequence[]]}, 
-          Pattern[CodeInspector`LinterUI`Private`value, 
-           Blank[]]] := Apply[Set, 
-          Append[
-           ToHeldExpression[
-            CodeInspector`LinterUI`Private`varNameString[
-            CodeInspector`LinterUI`Private`nameArguments]], 
-           CodeInspector`LinterUI`Private`value]], 
-        CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`notebook, 
-           Blank[NotebookObject]]] := ((
-           "CodeInspector`LinterUI`Private`Vars`" <> "$$") <> 
-          With[{CodeInspector`LinterUI`Private`nbID = 
-             Last[CodeInspector`LinterUI`Private`notebook]}, 
-            If[
-             StringQ[CodeInspector`LinterUI`Private`nbID], 
-             StringReplace[CodeInspector`LinterUI`Private`nbID, "-" -> "$"], 
-             ToString[CodeInspector`LinterUI`Private`nbID]]]) <> "$$", Null, 
-        CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`cell, 
-           Blank[CellObject]]] := (
-          CodeInspector`LinterUI`Private`varNameString[
-            Replace[
-             ParentNotebook[CodeInspector`LinterUI`Private`cell], $Failed -> 
-             EvaluationNotebook[]]] <> 
-          With[{CodeInspector`LinterUI`Private`cellID = 
-             First[CodeInspector`LinterUI`Private`cell]}, 
-            If[
-             StringQ[CodeInspector`LinterUI`Private`cellID], 
-             StringReplace[CodeInspector`LinterUI`Private`cellID, "-" -> "$"], 
-             ToString[CodeInspector`LinterUI`Private`cellID]]]) <> "$$", Null,
-         CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`notebook, 
-           Blank[NotebookObject]], 
-          Pattern[CodeInspector`LinterUI`Private`cell, 
-           Blank[CellObject]]] := (
-          CodeInspector`LinterUI`Private`varNameString[
-           CodeInspector`LinterUI`Private`notebook] <> 
-          With[{CodeInspector`LinterUI`Private`cellID = 
-             First[CodeInspector`LinterUI`Private`cell]}, 
-            If[
-             StringQ[CodeInspector`LinterUI`Private`cellID], 
-             StringReplace[CodeInspector`LinterUI`Private`cellID, "-" -> "$"], 
-             ToString[CodeInspector`LinterUI`Private`cellID]]]) <> "$$", Null,
-         CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`notebook, 
-           Blank[NotebookObject]], 
-          Pattern[CodeInspector`LinterUI`Private`name, 
-           Blank[String]]] := 
-        CodeInspector`LinterUI`Private`varNameString[
-          CodeInspector`LinterUI`Private`notebook] <> 
-         CodeInspector`LinterUI`Private`name, Null, 
-        CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`cell, 
-           Blank[CellObject]], 
-          Pattern[CodeInspector`LinterUI`Private`name, 
-           Blank[String]]] := 
-        CodeInspector`LinterUI`Private`varNameString[
-          CodeInspector`LinterUI`Private`cell] <> 
-         CodeInspector`LinterUI`Private`name, Null, 
-        CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`notebook, 
-           Blank[NotebookObject]], 
-          Pattern[CodeInspector`LinterUI`Private`cell, 
-           Blank[CellObject]], 
-          Pattern[CodeInspector`LinterUI`Private`name, 
-           Blank[String]]] := 
-        CodeInspector`LinterUI`Private`varNameString[
-          CodeInspector`LinterUI`Private`notebook, 
-           CodeInspector`LinterUI`Private`cell] <> 
-         CodeInspector`LinterUI`Private`name, Null, 
-        CodeInspector`LinterUI`Private`varNameString[
-          Pattern[CodeInspector`LinterUI`Private`nameArguments, 
-           BlankSequence[]], 
-          Pattern[CodeInspector`LinterUI`Private`lint, 
-           Blank[CodeInspector`InspectionObject]], 
-          Pattern[CodeInspector`LinterUI`Private`name, 
-           Blank[String]]] := ((
-           CodeInspector`LinterUI`Private`varNameString[
-            CodeInspector`LinterUI`Private`nameArguments] <> Apply[Sequence, 
-             Riffle[
-              Map[StringDelete[
-                ToString[#], 
-                Alternatives["[", "]", "{", "}", ",", " "]]& , 
-               CodeInspector`LinterUI`Private`extractFirstList[
-                Last[CodeInspector`LinterUI`Private`lint][
-                CodeParser`Source]]], "$"]]) <> "$$") <> 
-         CodeInspector`LinterUI`Private`name, 
-        CodeInspector`LinterUI`Private`extractFirstList[
-          Pattern[CodeInspector`LinterUI`Private`expr, 
-           Blank[]]] := FirstCase[CodeInspector`LinterUI`Private`expr, 
-          Blank[List], {}, {0, Infinity}]}; 
-      LinterUIDockedCell`Private`notebook$$ = EvaluationNotebook[]), 
-     UnsavedVariables :> {LinterUIDockedCell`Private`notebook$$}]], 
-   CellFrame -> {{0, 0}, {1, 1}}, CellFrameMargins -> {{0, 0}, {0, 0}}, 
-   CellFrameColor -> GrayLevel[0.85], Background -> GrayLevel[0.97], CellTags -> 
-   "CodeAnalysisDockedCell"]},
+DockedCells->{},
+PrivateNotebookOptions->{"CloudPublishPath"->"/Published/\
+RealisticCityGeneration.nb"},
 FrontEndVersion->"14.2 for Mac OS X ARM (64-bit) (March 16, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"f94f3c6a-f23b-4cbc-8742-de4f7682879d"
@@ -43114,361 +42255,352 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[554, 20, 668, 11, 126, "Abstract",ExpressionUUID->"d3a4b610-fa17-4356-8832-0e90213054fe"],
 Cell[CellGroupData[{
-Cell[576, 22, 188, 3, 96, "Title",ExpressionUUID->"05282374-c37c-45f5-b5f5-21d242d0f34f"],
+Cell[1247, 35, 157, 3, 66, "Section",ExpressionUUID->"e553f61b-3260-4ee9-a983-25ee25b13509"],
 Cell[CellGroupData[{
-Cell[789, 29, 201, 4, 66, "Section",ExpressionUUID->"daa32144-b26b-4b7b-9bd5-ef7b572fff5c"],
-Cell[993, 35, 668, 11, 126, "Abstract",ExpressionUUID->"d3a4b610-fa17-4356-8832-0e90213054fe"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1698, 51, 157, 3, 66, "Section",ExpressionUUID->"e553f61b-3260-4ee9-a983-25ee25b13509"],
-Cell[CellGroupData[{
-Cell[1880, 58, 147, 3, 53, "Subsection",ExpressionUUID->"5d6cbe03-219f-4710-bfa6-1a4e4c5e0e2a"],
-Cell[2030, 63, 1704, 28, 252, "Text",ExpressionUUID->"916cfab4-97aa-420f-a8a9-e0da240ee627"]
+Cell[1429, 42, 147, 3, 53, "Subsection",ExpressionUUID->"5d6cbe03-219f-4710-bfa6-1a4e4c5e0e2a"],
+Cell[1579, 47, 1704, 28, 252, "Text",ExpressionUUID->"916cfab4-97aa-420f-a8a9-e0da240ee627"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3783, 97, 170, 3, 66, "Section",ExpressionUUID->"91b67591-a375-4b0d-a30b-b493a87fc554"],
-Cell[3956, 102, 1075, 26, 55, "Text",ExpressionUUID->"ed470b35-b2bd-405f-8dd4-19cd8d2b6a1f"],
+Cell[3332, 81, 170, 3, 66, "Section",ExpressionUUID->"91b67591-a375-4b0d-a30b-b493a87fc554"],
+Cell[3505, 86, 1075, 26, 55, "Text",ExpressionUUID->"ed470b35-b2bd-405f-8dd4-19cd8d2b6a1f"],
 Cell[CellGroupData[{
-Cell[5056, 132, 166, 3, 53, "Subsection",ExpressionUUID->"91e7b29e-8e48-4653-a733-9c3dc1fca6ac"],
-Cell[5225, 137, 1625, 29, 143, "Text",ExpressionUUID->"6c765930-6e39-4dc7-80cc-3c3e343f6878"],
-Cell[6853, 168, 281, 4, 36, "CodeText",ExpressionUUID->"8821ac3d-2092-4ffb-b5dd-7c77d777d879"],
-Cell[7137, 174, 2024, 40, 153, "Text",ExpressionUUID->"069c4b50-a5bd-40d8-af66-6d011bc09c59"],
-Cell[9164, 216, 312, 6, 53, "Text",ExpressionUUID->"3a8742c9-dd7f-4465-8afc-93c234ada029"],
-Cell[9479, 224, 1384, 24, 143, "Text",ExpressionUUID->"4d7df35f-89cb-4878-9c27-fe71d0ce10e1"],
-Cell[10866, 250, 204, 3, 36, "CodeText",ExpressionUUID->"f29e9a2c-8dae-4854-860d-e90db2a58bf6"],
-Cell[11073, 255, 3082, 56, 273, "Text",ExpressionUUID->"7a867d81-c63e-4554-b513-9ac054209b8d"],
-Cell[14158, 313, 71, 0, 33, "Text",ExpressionUUID->"56e6480a-022a-41b8-9ca7-d5cd090b6c72"],
-Cell[14232, 315, 528, 11, 55, "Text",ExpressionUUID->"eb264728-e3ad-4697-992e-4216d8986a19"],
-Cell[14763, 328, 414, 5, 70, "Text",ExpressionUUID->"678cea6d-b42e-4c09-8b49-ab0438b1aa08"],
-Cell[15180, 335, 572, 16, 25, "SubitemParagraph",ExpressionUUID->"c612efea-e5b8-44f7-aa85-e3ee0ea93931"],
-Cell[15755, 353, 553, 10, 33, "Text",ExpressionUUID->"818a96df-63a2-4b7d-a7c5-c8649113e65a"],
-Cell[16311, 365, 197, 3, 36, "CodeText",ExpressionUUID->"382d4df0-42ad-475a-b817-b0716a70b6a1"],
-Cell[16511, 370, 2541, 47, 115, "Text",ExpressionUUID->"dc627341-525e-408b-b0a7-3fe177e5e0a2"],
-Cell[19055, 419, 330, 9, 55, "Text",ExpressionUUID->"846e5811-6785-4fa9-909a-c3ad45717196"],
-Cell[19388, 430, 230, 5, 36, "CodeText",ExpressionUUID->"fb3825a9-164c-4b82-9dab-600e1b75fb67"],
-Cell[19621, 437, 565, 17, 33, "Text",ExpressionUUID->"2f70e446-d1eb-4a7e-a864-5ba6761b4050"],
-Cell[20189, 456, 332, 7, 55, "Text",ExpressionUUID->"d438fb59-c9ea-4ba8-b11d-ad0df6130536"],
-Cell[20524, 465, 854, 25, 31, "Text",ExpressionUUID->"f680fa0e-0b7f-4ed7-b924-86a5dab8a395"],
-Cell[21381, 492, 429, 9, 77, "Text",ExpressionUUID->"5fa19d9f-a296-4ac4-8270-9e7fdfef1150"],
-Cell[21813, 503, 188, 3, 36, "CodeText",ExpressionUUID->"07e68089-ce4d-4c3f-9350-384a7fc6ce0a"],
-Cell[22004, 508, 74818, 1232, 185, "Text",ExpressionUUID->"76598f2b-ac74-4883-8624-6fbbc5d29cb3"],
-Cell[96825, 1742, 329, 7, 55, "Text",ExpressionUUID->"0b9beafa-2330-4ef5-999f-259bd716d96d"],
-Cell[97157, 1751, 988, 24, 77, "Text",ExpressionUUID->"98ebbd7f-a5a1-41a0-aec1-4669a6429232"],
-Cell[98148, 1777, 744, 23, 72, "Text",ExpressionUUID->"6c15696b-aaa9-4ba4-827e-582c94f41034"],
-Cell[98895, 1802, 491, 13, 77, "Text",ExpressionUUID->"dccb2857-e3ab-4298-894f-bbcc261fe602"],
-Cell[99389, 1817, 185, 3, 36, "CodeText",ExpressionUUID->"73f2e65b-a485-4985-b442-de7b0598b0f8"],
-Cell[99577, 1822, 1440, 29, 127, "Text",ExpressionUUID->"621990d1-cd69-4668-865c-c2a532d19c3d"],
-Cell[101020, 1853, 711, 19, 33, "Text",ExpressionUUID->"f1d2f411-1f98-4b15-9382-fa7adf42b57d"],
-Cell[101734, 1874, 308, 7, 55, "Text",ExpressionUUID->"22983926-a3ad-4b3e-8bfa-0d4318950e78"]
+Cell[4605, 116, 166, 3, 53, "Subsection",ExpressionUUID->"91e7b29e-8e48-4653-a733-9c3dc1fca6ac"],
+Cell[4774, 121, 1625, 29, 143, "Text",ExpressionUUID->"6c765930-6e39-4dc7-80cc-3c3e343f6878"],
+Cell[6402, 152, 281, 4, 36, "CodeText",ExpressionUUID->"8821ac3d-2092-4ffb-b5dd-7c77d777d879"],
+Cell[6686, 158, 2024, 40, 153, "Text",ExpressionUUID->"069c4b50-a5bd-40d8-af66-6d011bc09c59"],
+Cell[8713, 200, 312, 6, 53, "Text",ExpressionUUID->"3a8742c9-dd7f-4465-8afc-93c234ada029"],
+Cell[9028, 208, 1384, 24, 143, "Text",ExpressionUUID->"4d7df35f-89cb-4878-9c27-fe71d0ce10e1"],
+Cell[10415, 234, 204, 3, 36, "CodeText",ExpressionUUID->"f29e9a2c-8dae-4854-860d-e90db2a58bf6"],
+Cell[10622, 239, 3082, 56, 273, "Text",ExpressionUUID->"7a867d81-c63e-4554-b513-9ac054209b8d"],
+Cell[13707, 297, 71, 0, 33, "Text",ExpressionUUID->"56e6480a-022a-41b8-9ca7-d5cd090b6c72"],
+Cell[13781, 299, 528, 11, 55, "Text",ExpressionUUID->"eb264728-e3ad-4697-992e-4216d8986a19"],
+Cell[14312, 312, 414, 5, 70, "Text",ExpressionUUID->"678cea6d-b42e-4c09-8b49-ab0438b1aa08"],
+Cell[14729, 319, 572, 16, 25, "SubitemParagraph",ExpressionUUID->"c612efea-e5b8-44f7-aa85-e3ee0ea93931"],
+Cell[15304, 337, 553, 10, 33, "Text",ExpressionUUID->"818a96df-63a2-4b7d-a7c5-c8649113e65a"],
+Cell[15860, 349, 197, 3, 36, "CodeText",ExpressionUUID->"382d4df0-42ad-475a-b817-b0716a70b6a1"],
+Cell[16060, 354, 2541, 47, 115, "Text",ExpressionUUID->"dc627341-525e-408b-b0a7-3fe177e5e0a2"],
+Cell[18604, 403, 330, 9, 55, "Text",ExpressionUUID->"846e5811-6785-4fa9-909a-c3ad45717196"],
+Cell[18937, 414, 230, 5, 36, "CodeText",ExpressionUUID->"fb3825a9-164c-4b82-9dab-600e1b75fb67"],
+Cell[19170, 421, 565, 17, 33, "Text",ExpressionUUID->"2f70e446-d1eb-4a7e-a864-5ba6761b4050"],
+Cell[19738, 440, 332, 7, 55, "Text",ExpressionUUID->"d438fb59-c9ea-4ba8-b11d-ad0df6130536"],
+Cell[20073, 449, 854, 25, 31, "Text",ExpressionUUID->"f680fa0e-0b7f-4ed7-b924-86a5dab8a395"],
+Cell[20930, 476, 429, 9, 77, "Text",ExpressionUUID->"5fa19d9f-a296-4ac4-8270-9e7fdfef1150"],
+Cell[21362, 487, 188, 3, 36, "CodeText",ExpressionUUID->"07e68089-ce4d-4c3f-9350-384a7fc6ce0a"],
+Cell[21553, 492, 74818, 1232, 185, "Text",ExpressionUUID->"76598f2b-ac74-4883-8624-6fbbc5d29cb3"],
+Cell[96374, 1726, 329, 7, 55, "Text",ExpressionUUID->"0b9beafa-2330-4ef5-999f-259bd716d96d"],
+Cell[96706, 1735, 988, 24, 77, "Text",ExpressionUUID->"98ebbd7f-a5a1-41a0-aec1-4669a6429232"],
+Cell[97697, 1761, 744, 23, 72, "Text",ExpressionUUID->"6c15696b-aaa9-4ba4-827e-582c94f41034"],
+Cell[98444, 1786, 491, 13, 77, "Text",ExpressionUUID->"dccb2857-e3ab-4298-894f-bbcc261fe602"],
+Cell[98938, 1801, 185, 3, 36, "CodeText",ExpressionUUID->"73f2e65b-a485-4985-b442-de7b0598b0f8"],
+Cell[99126, 1806, 1440, 29, 127, "Text",ExpressionUUID->"621990d1-cd69-4668-865c-c2a532d19c3d"],
+Cell[100569, 1837, 711, 19, 33, "Text",ExpressionUUID->"f1d2f411-1f98-4b15-9382-fa7adf42b57d"],
+Cell[101283, 1858, 308, 7, 55, "Text",ExpressionUUID->"22983926-a3ad-4b3e-8bfa-0d4318950e78"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[102079, 1886, 260, 4, 53, "Subsection",ExpressionUUID->"50bf19fd-9519-4805-815e-9e9020a4be0d"],
+Cell[101628, 1870, 260, 4, 53, "Subsection",ExpressionUUID->"50bf19fd-9519-4805-815e-9e9020a4be0d"],
 Cell[CellGroupData[{
-Cell[102364, 1894, 158, 3, 43, "Subsubsection",ExpressionUUID->"56baeaaf-1892-4cd2-845c-330ad3aa805c"],
-Cell[102525, 1899, 617, 13, 55, "Text",ExpressionUUID->"c3c71acf-bb2c-434b-a9e1-7b1748c45e20"],
-Cell[103145, 1914, 626, 9, 33, "Text",ExpressionUUID->"1c0f8011-c17c-4d53-bce1-f5b9024f45c4"],
-Cell[103774, 1925, 609, 17, 51, "Text",ExpressionUUID->"0dc9c2db-89ba-4bf0-b67b-c9bf4bcf8fc2"],
-Cell[104386, 1944, 268, 6, 33, "Text",ExpressionUUID->"0432da07-97f0-40fa-8580-f5aa6691fb0d"],
-Cell[104657, 1952, 326, 9, 31, "Text",ExpressionUUID->"d499d97f-e9b8-451f-8218-b5895e02be20"],
-Cell[104986, 1963, 1074, 22, 77, "Text",ExpressionUUID->"c3e8d0bd-4d80-4bed-9a1b-2bee649a981e"],
-Cell[106063, 1987, 421, 8, 59, "SubitemParagraph",ExpressionUUID->"57652678-24c5-4bcc-b220-4545ea2ce7cd"],
-Cell[106487, 1997, 261, 6, 36, "CodeText",ExpressionUUID->"d76e8cd8-b27c-4d33-ad84-d26f0003c4a0"],
-Cell[106751, 2005, 1335, 35, 153, "Text",ExpressionUUID->"6e98bd93-f917-416f-b3ca-46866e7b2c90"],
-Cell[108089, 2042, 2034, 40, 186, "Text",ExpressionUUID->"87e228d7-f18e-461a-8712-309adc4a306b"],
-Cell[110126, 2084, 171, 2, 50, "Text",ExpressionUUID->"0594359e-f705-4a66-8d7a-ac295d83af82"],
-Cell[110300, 2088, 724, 13, 164, "Text",ExpressionUUID->"a0af22c8-0aae-4698-8dfb-ed8c9302a362"],
-Cell[111027, 2103, 822, 20, 55, "Text",ExpressionUUID->"a72e671f-78f0-41db-960d-9be822bcc880"],
-Cell[111852, 2125, 1758, 45, 153, "Text",ExpressionUUID->"b129c019-02e0-401c-9b87-3eb01e34c113"]
+Cell[101913, 1878, 158, 3, 43, "Subsubsection",ExpressionUUID->"56baeaaf-1892-4cd2-845c-330ad3aa805c"],
+Cell[102074, 1883, 617, 13, 55, "Text",ExpressionUUID->"c3c71acf-bb2c-434b-a9e1-7b1748c45e20"],
+Cell[102694, 1898, 626, 9, 33, "Text",ExpressionUUID->"1c0f8011-c17c-4d53-bce1-f5b9024f45c4"],
+Cell[103323, 1909, 609, 17, 51, "Text",ExpressionUUID->"0dc9c2db-89ba-4bf0-b67b-c9bf4bcf8fc2"],
+Cell[103935, 1928, 268, 6, 33, "Text",ExpressionUUID->"0432da07-97f0-40fa-8580-f5aa6691fb0d"],
+Cell[104206, 1936, 326, 9, 31, "Text",ExpressionUUID->"d499d97f-e9b8-451f-8218-b5895e02be20"],
+Cell[104535, 1947, 1074, 22, 77, "Text",ExpressionUUID->"c3e8d0bd-4d80-4bed-9a1b-2bee649a981e"],
+Cell[105612, 1971, 421, 8, 59, "SubitemParagraph",ExpressionUUID->"57652678-24c5-4bcc-b220-4545ea2ce7cd"],
+Cell[106036, 1981, 261, 6, 36, "CodeText",ExpressionUUID->"d76e8cd8-b27c-4d33-ad84-d26f0003c4a0"],
+Cell[106300, 1989, 1335, 35, 153, "Text",ExpressionUUID->"6e98bd93-f917-416f-b3ca-46866e7b2c90"],
+Cell[107638, 2026, 2034, 40, 186, "Text",ExpressionUUID->"87e228d7-f18e-461a-8712-309adc4a306b"],
+Cell[109675, 2068, 171, 2, 50, "Text",ExpressionUUID->"0594359e-f705-4a66-8d7a-ac295d83af82"],
+Cell[109849, 2072, 724, 13, 164, "Text",ExpressionUUID->"a0af22c8-0aae-4698-8dfb-ed8c9302a362"],
+Cell[110576, 2087, 822, 20, 55, "Text",ExpressionUUID->"a72e671f-78f0-41db-960d-9be822bcc880"],
+Cell[111401, 2109, 1758, 45, 153, "Text",ExpressionUUID->"b129c019-02e0-401c-9b87-3eb01e34c113"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[113647, 2175, 170, 3, 43, "Subsubsection",ExpressionUUID->"e4e3aa1a-6252-4611-addc-db001c6832b2"],
-Cell[113820, 2180, 988, 22, 161, "Text",ExpressionUUID->"ca57c3d8-978b-4216-9932-90b29e61e758"],
-Cell[114811, 2204, 891, 30, 31, "Text",ExpressionUUID->"6b570659-7ecd-4cde-9efe-0e09ec22f503"],
-Cell[115705, 2236, 317, 7, 33, "Text",ExpressionUUID->"df2c11e3-464a-4186-a2be-6dda8f215930"],
-Cell[116025, 2245, 1678, 43, 153, "Text",ExpressionUUID->"a133a231-355f-40d1-8704-87ec1d48b2d0"]
+Cell[113196, 2159, 170, 3, 43, "Subsubsection",ExpressionUUID->"e4e3aa1a-6252-4611-addc-db001c6832b2"],
+Cell[113369, 2164, 988, 22, 161, "Text",ExpressionUUID->"ca57c3d8-978b-4216-9932-90b29e61e758"],
+Cell[114360, 2188, 891, 30, 31, "Text",ExpressionUUID->"6b570659-7ecd-4cde-9efe-0e09ec22f503"],
+Cell[115254, 2220, 317, 7, 33, "Text",ExpressionUUID->"df2c11e3-464a-4186-a2be-6dda8f215930"],
+Cell[115574, 2229, 1678, 43, 153, "Text",ExpressionUUID->"a133a231-355f-40d1-8704-87ec1d48b2d0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[117740, 2293, 167, 3, 43, "Subsubsection",ExpressionUUID->"d8e62988-eab4-43d7-9226-a0f29f4b4c5b"],
-Cell[117910, 2298, 291, 7, 33, "Text",ExpressionUUID->"86d5836f-4556-4087-9450-048c2f0671cd"],
-Cell[118204, 2307, 240, 6, 23, "ItemParagraph",ExpressionUUID->"44d12a24-4d47-4459-b7cd-08c627b19317"],
-Cell[118447, 2315, 428, 8, 43, "ItemParagraph",ExpressionUUID->"e5c4ff16-cf43-4d37-b32f-32d32a46515e"],
-Cell[118878, 2325, 539, 12, 55, "Text",ExpressionUUID->"2b2619f6-6f96-43ba-ac24-82d60bb9783d"],
-Cell[119420, 2339, 841, 22, 31, "Text",ExpressionUUID->"8e0aa15d-1c60-4bd2-8c45-ffab4465c968"],
-Cell[120264, 2363, 278, 6, 55, "Text",ExpressionUUID->"4e0a9943-96f0-410c-bbe2-f55846099efd"],
-Cell[120545, 2371, 242, 4, 36, "CodeText",ExpressionUUID->"6c6f2e27-dada-4cbf-ab7a-fa753a1166f4"],
-Cell[120790, 2377, 5528, 145, 296, "Text",ExpressionUUID->"9637fa6f-393a-4173-ab57-3b1957488289"],
-Cell[126321, 2524, 356, 9, 33, "Text",ExpressionUUID->"f36ea748-146c-446a-87b8-24c0bad9ebcd"]
+Cell[117289, 2277, 167, 3, 43, "Subsubsection",ExpressionUUID->"d8e62988-eab4-43d7-9226-a0f29f4b4c5b"],
+Cell[117459, 2282, 291, 7, 33, "Text",ExpressionUUID->"86d5836f-4556-4087-9450-048c2f0671cd"],
+Cell[117753, 2291, 240, 6, 23, "ItemParagraph",ExpressionUUID->"44d12a24-4d47-4459-b7cd-08c627b19317"],
+Cell[117996, 2299, 428, 8, 43, "ItemParagraph",ExpressionUUID->"e5c4ff16-cf43-4d37-b32f-32d32a46515e"],
+Cell[118427, 2309, 539, 12, 55, "Text",ExpressionUUID->"2b2619f6-6f96-43ba-ac24-82d60bb9783d"],
+Cell[118969, 2323, 841, 22, 31, "Text",ExpressionUUID->"8e0aa15d-1c60-4bd2-8c45-ffab4465c968"],
+Cell[119813, 2347, 278, 6, 55, "Text",ExpressionUUID->"4e0a9943-96f0-410c-bbe2-f55846099efd"],
+Cell[120094, 2355, 242, 4, 36, "CodeText",ExpressionUUID->"6c6f2e27-dada-4cbf-ab7a-fa753a1166f4"],
+Cell[120339, 2361, 5528, 145, 296, "Text",ExpressionUUID->"9637fa6f-393a-4173-ab57-3b1957488289"],
+Cell[125870, 2508, 356, 9, 33, "Text",ExpressionUUID->"f36ea748-146c-446a-87b8-24c0bad9ebcd"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[126714, 2538, 174, 3, 43, "Subsubsection",ExpressionUUID->"fea20e82-2423-4021-a7ce-6c559016d647"],
-Cell[126891, 2543, 406, 8, 77, "Text",ExpressionUUID->"52e3e7fd-e103-404f-a469-f37affb05864"],
-Cell[127300, 2553, 364, 5, 70, "Text",ExpressionUUID->"5483d044-baee-4c3b-a892-f2e943f0d2f8"],
-Cell[127667, 2560, 344, 7, 55, "Text",ExpressionUUID->"a99fff43-f9a8-4a18-9927-c677ee2e09ee"],
-Cell[128014, 2569, 222, 5, 36, "CodeText",ExpressionUUID->"9ffe532d-d49f-4252-aa62-a1581238af51"],
-Cell[128239, 2576, 2816, 63, 378, "Text",ExpressionUUID->"713f830f-ade8-4d1e-bd59-93319508d80f"],
-Cell[131058, 2641, 223, 5, 33, "Text",ExpressionUUID->"244e8e4c-d950-4a25-9f4f-59139ae022c8"]
+Cell[126263, 2522, 174, 3, 43, "Subsubsection",ExpressionUUID->"fea20e82-2423-4021-a7ce-6c559016d647"],
+Cell[126440, 2527, 406, 8, 77, "Text",ExpressionUUID->"52e3e7fd-e103-404f-a469-f37affb05864"],
+Cell[126849, 2537, 364, 5, 70, "Text",ExpressionUUID->"5483d044-baee-4c3b-a892-f2e943f0d2f8"],
+Cell[127216, 2544, 344, 7, 55, "Text",ExpressionUUID->"a99fff43-f9a8-4a18-9927-c677ee2e09ee"],
+Cell[127563, 2553, 222, 5, 36, "CodeText",ExpressionUUID->"9ffe532d-d49f-4252-aa62-a1581238af51"],
+Cell[127788, 2560, 2816, 63, 378, "Text",ExpressionUUID->"713f830f-ade8-4d1e-bd59-93319508d80f"],
+Cell[130607, 2625, 223, 5, 33, "Text",ExpressionUUID->"244e8e4c-d950-4a25-9f4f-59139ae022c8"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[131318, 2651, 173, 3, 43, "Subsubsection",ExpressionUUID->"25600296-3f66-4440-b8d8-b39ccde6da4b"],
-Cell[131494, 2656, 284, 6, 55, "Text",ExpressionUUID->"435233f6-397c-423f-a3c5-26226881c527"],
-Cell[131781, 2664, 165, 3, 36, "CodeText",ExpressionUUID->"626af10c-e8cd-482c-9206-74ce84e4a57d"],
-Cell[131949, 2669, 690, 18, 31, "Text",ExpressionUUID->"5e333ba8-4a4e-495e-b1d7-15bb99cd5728"],
-Cell[132642, 2689, 834, 17, 99, "Text",ExpressionUUID->"6f53b2ad-3886-4213-921a-f471d952498d"],
-Cell[133479, 2708, 225, 5, 36, "CodeText",ExpressionUUID->"affc5141-9e84-4f40-be86-3cc9680563b9"],
-Cell[133707, 2715, 4094, 97, 256, "Text",ExpressionUUID->"a22ef919-d3cb-4d69-ba0a-a6ee7a699869"],
-Cell[137804, 2814, 628, 17, 55, "Text",ExpressionUUID->"4645d626-432a-4854-9d9a-255d7734e1d5"],
-Cell[138435, 2833, 290, 4, 33, "Text",ExpressionUUID->"3a879e1c-833a-43cc-9ae0-7cb3eb9ef7ec"]
+Cell[130867, 2635, 173, 3, 43, "Subsubsection",ExpressionUUID->"25600296-3f66-4440-b8d8-b39ccde6da4b"],
+Cell[131043, 2640, 284, 6, 55, "Text",ExpressionUUID->"435233f6-397c-423f-a3c5-26226881c527"],
+Cell[131330, 2648, 165, 3, 36, "CodeText",ExpressionUUID->"626af10c-e8cd-482c-9206-74ce84e4a57d"],
+Cell[131498, 2653, 690, 18, 31, "Text",ExpressionUUID->"5e333ba8-4a4e-495e-b1d7-15bb99cd5728"],
+Cell[132191, 2673, 834, 17, 99, "Text",ExpressionUUID->"6f53b2ad-3886-4213-921a-f471d952498d"],
+Cell[133028, 2692, 225, 5, 36, "CodeText",ExpressionUUID->"affc5141-9e84-4f40-be86-3cc9680563b9"],
+Cell[133256, 2699, 4094, 97, 256, "Text",ExpressionUUID->"a22ef919-d3cb-4d69-ba0a-a6ee7a699869"],
+Cell[137353, 2798, 628, 17, 55, "Text",ExpressionUUID->"4645d626-432a-4854-9d9a-255d7734e1d5"],
+Cell[137984, 2817, 290, 4, 33, "Text",ExpressionUUID->"3a879e1c-833a-43cc-9ae0-7cb3eb9ef7ec"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[138774, 2843, 182, 3, 53, "Subsection",ExpressionUUID->"02db3d51-798c-4441-8c95-6e7b3a913c52"],
+Cell[138323, 2827, 182, 3, 53, "Subsection",ExpressionUUID->"02db3d51-798c-4441-8c95-6e7b3a913c52"],
 Cell[CellGroupData[{
-Cell[138981, 2850, 276, 5, 38, "Subsubsection",ExpressionUUID->"6d98400b-9d44-4456-a478-d59379ea0594"],
-Cell[139260, 2857, 4431, 113, 484, "Code",ExpressionUUID->"6ac0e6b4-430b-42e0-af45-64c18da1d8e4"]
+Cell[138530, 2834, 276, 5, 38, "Subsubsection",ExpressionUUID->"6d98400b-9d44-4456-a478-d59379ea0594"],
+Cell[138809, 2841, 4431, 113, 484, "Code",ExpressionUUID->"6ac0e6b4-430b-42e0-af45-64c18da1d8e4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[143728, 2975, 279, 4, 38, "Subsubsection",ExpressionUUID->"270f9a5a-46a6-4e78-9165-b68e7b274f75"],
-Cell[144010, 2981, 8852, 227, 239, "Code",ExpressionUUID->"c6343bce-a016-4cfc-846e-39dfd93b434f"]
+Cell[143277, 2959, 279, 4, 38, "Subsubsection",ExpressionUUID->"270f9a5a-46a6-4e78-9165-b68e7b274f75"],
+Cell[143559, 2965, 8852, 227, 239, "Code",ExpressionUUID->"c6343bce-a016-4cfc-846e-39dfd93b434f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[152911, 3214, 263, 5, 53, "Subsection",ExpressionUUID->"aad4b5cc-c6eb-4844-b477-3f7475bb6f60"],
+Cell[152460, 3198, 263, 5, 53, "Subsection",ExpressionUUID->"aad4b5cc-c6eb-4844-b477-3f7475bb6f60"],
 Cell[CellGroupData[{
-Cell[153199, 3223, 164, 3, 43, "Subsubsection",ExpressionUUID->"d61bdc3f-7bb8-4118-9cd7-c04e81a2b213"],
-Cell[153366, 3228, 1061, 20, 186, "Text",ExpressionUUID->"6281cf9f-f168-428f-8cbd-050815b5e1e7"],
-Cell[154430, 3250, 203, 3, 36, "CodeText",ExpressionUUID->"256e8ac5-3b68-4431-b2f4-3834908366cf"],
-Cell[154636, 3255, 13332, 225, 352, "Text",ExpressionUUID->"5d1b2968-cb00-4570-adf5-1edbfc12e3e9"],
-Cell[167971, 3482, 181, 3, 36, "CodeText",ExpressionUUID->"61c7c137-4a8d-4cfb-a9f8-a1f2006e33e6"],
-Cell[168155, 3487, 3902, 70, 215, "Text",ExpressionUUID->"db9e4515-905d-4bd7-a6f0-f99d177c255c"],
-Cell[172060, 3559, 585, 14, 121, "Text",ExpressionUUID->"3ae20527-a966-4fd7-9881-570bfac8bac6"],
-Cell[172648, 3575, 250, 6, 36, "CodeText",ExpressionUUID->"d06d60a4-e694-4efb-99dc-bb4fceddcefb"],
-Cell[172901, 3583, 446, 11, 57, "Text",ExpressionUUID->"2c56ee40-3fd7-4665-a87e-7db7b4b9e679"],
-Cell[173350, 3596, 186, 3, 33, "Text",ExpressionUUID->"815c1fe2-599d-4301-a4b7-9e3da9213a7f"]
+Cell[152748, 3207, 164, 3, 43, "Subsubsection",ExpressionUUID->"d61bdc3f-7bb8-4118-9cd7-c04e81a2b213"],
+Cell[152915, 3212, 1061, 20, 186, "Text",ExpressionUUID->"6281cf9f-f168-428f-8cbd-050815b5e1e7"],
+Cell[153979, 3234, 203, 3, 36, "CodeText",ExpressionUUID->"256e8ac5-3b68-4431-b2f4-3834908366cf"],
+Cell[154185, 3239, 13332, 225, 352, "Text",ExpressionUUID->"5d1b2968-cb00-4570-adf5-1edbfc12e3e9"],
+Cell[167520, 3466, 181, 3, 36, "CodeText",ExpressionUUID->"61c7c137-4a8d-4cfb-a9f8-a1f2006e33e6"],
+Cell[167704, 3471, 3902, 70, 215, "Text",ExpressionUUID->"db9e4515-905d-4bd7-a6f0-f99d177c255c"],
+Cell[171609, 3543, 585, 14, 121, "Text",ExpressionUUID->"3ae20527-a966-4fd7-9881-570bfac8bac6"],
+Cell[172197, 3559, 250, 6, 36, "CodeText",ExpressionUUID->"d06d60a4-e694-4efb-99dc-bb4fceddcefb"],
+Cell[172450, 3567, 446, 11, 57, "Text",ExpressionUUID->"2c56ee40-3fd7-4665-a87e-7db7b4b9e679"],
+Cell[172899, 3580, 186, 3, 33, "Text",ExpressionUUID->"815c1fe2-599d-4301-a4b7-9e3da9213a7f"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[173573, 3604, 220, 4, 30, "Subsubsection",ExpressionUUID->"6f901924-8197-48ea-84cf-6292f3ffb100"],
-Cell[173796, 3610, 1734, 45, 88, "Code",ExpressionUUID->"d466a5d9-d6a2-46ab-8b80-9a8df81f3009"],
-Cell[175533, 3657, 781, 19, 55, "Text",ExpressionUUID->"35fe40b5-d4d9-4d3d-a6fd-4bc027da810a"]
+Cell[173122, 3588, 220, 4, 30, "Subsubsection",ExpressionUUID->"6f901924-8197-48ea-84cf-6292f3ffb100"],
+Cell[173345, 3594, 1734, 45, 88, "Code",ExpressionUUID->"d466a5d9-d6a2-46ab-8b80-9a8df81f3009"],
+Cell[175082, 3641, 781, 19, 55, "Text",ExpressionUUID->"35fe40b5-d4d9-4d3d-a6fd-4bc027da810a"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[176363, 3682, 212, 4, 53, "Subsection",ExpressionUUID->"d338ef2c-cd71-4161-a063-69bff76eabdc"],
-Cell[176578, 3688, 343, 8, 99, "Text",ExpressionUUID->"8676e0c5-af33-4f9b-8864-d6bc5a08de4c"],
-Cell[176924, 3698, 167, 3, 36, "CodeText",ExpressionUUID->"e6cafe67-ff47-4ec4-b486-7f2f1320c58c"],
+Cell[175912, 3666, 212, 4, 53, "Subsection",ExpressionUUID->"d338ef2c-cd71-4161-a063-69bff76eabdc"],
+Cell[176127, 3672, 343, 8, 99, "Text",ExpressionUUID->"8676e0c5-af33-4f9b-8864-d6bc5a08de4c"],
+Cell[176473, 3682, 167, 3, 36, "CodeText",ExpressionUUID->"e6cafe67-ff47-4ec4-b486-7f2f1320c58c"],
 Cell[CellGroupData[{
-Cell[177116, 3705, 322, 8, 29, "Input",ExpressionUUID->"b8dff1b6-ef3f-43d0-83e7-0539be81e097"],
-Cell[177441, 3715, 362426, 5983, 388, "Output",ExpressionUUID->"bfa2ca4a-6ab9-4c63-a491-f3eb1fca9f69"]
+Cell[176665, 3689, 322, 8, 29, "Input",ExpressionUUID->"b8dff1b6-ef3f-43d0-83e7-0539be81e097"],
+Cell[176990, 3699, 362426, 5983, 388, "Output",ExpressionUUID->"bfa2ca4a-6ab9-4c63-a491-f3eb1fca9f69"]
 }, Open  ]],
-Cell[539882, 9701, 516, 11, 99, "Text",ExpressionUUID->"c508a2a3-32d7-436c-afd3-4fbd871993fd"],
-Cell[540401, 9714, 313, 6, 36, "CodeText",ExpressionUUID->"ac1c9d76-643c-483b-8718-dfdbfee93a71"],
+Cell[539431, 9685, 516, 11, 99, "Text",ExpressionUUID->"c508a2a3-32d7-436c-afd3-4fbd871993fd"],
+Cell[539950, 9698, 313, 6, 36, "CodeText",ExpressionUUID->"ac1c9d76-643c-483b-8718-dfdbfee93a71"],
 Cell[CellGroupData[{
-Cell[540739, 9724, 495, 11, 29, "Input",ExpressionUUID->"aebb93fc-544e-4379-8c53-2e5b2b3c4aea"],
-Cell[541237, 9737, 86247, 1411, 304, "Output",ExpressionUUID->"1f8669fe-31e9-43c8-bff9-525814e00f0f"]
+Cell[540288, 9708, 495, 11, 29, "Input",ExpressionUUID->"aebb93fc-544e-4379-8c53-2e5b2b3c4aea"],
+Cell[540786, 9721, 86247, 1411, 304, "Output",ExpressionUUID->"1f8669fe-31e9-43c8-bff9-525814e00f0f"]
 }, Open  ]],
-Cell[627499, 11151, 628, 12, 99, "Text",ExpressionUUID->"874be93e-983f-4094-a031-f1c9f4d95a1b"],
-Cell[628130, 11165, 272, 6, 36, "CodeText",ExpressionUUID->"dbd0fbfb-e684-4296-a0fe-e5642cb4f6de"],
+Cell[627048, 11135, 628, 12, 99, "Text",ExpressionUUID->"874be93e-983f-4094-a031-f1c9f4d95a1b"],
+Cell[627679, 11149, 272, 6, 36, "CodeText",ExpressionUUID->"dbd0fbfb-e684-4296-a0fe-e5642cb4f6de"],
 Cell[CellGroupData[{
-Cell[628427, 11175, 505, 12, 29, "Input",ExpressionUUID->"9d4a5480-1689-416e-a554-3654b217fa24"],
-Cell[628935, 11189, 1017682, 16729, 432, 305754, 5057, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"53a81dac-96f3-4d17-b3d6-3ce01c49ac3c"]
+Cell[627976, 11159, 505, 12, 29, "Input",ExpressionUUID->"9d4a5480-1689-416e-a554-3654b217fa24"],
+Cell[628484, 11173, 1017682, 16729, 432, "Output",ExpressionUUID->"53a81dac-96f3-4d17-b3d6-3ce01c49ac3c"]
 }, Open  ]],
-Cell[1646632, 27921, 285, 6, 55, "Text",ExpressionUUID->"35b8ac63-cb0e-45bb-bdfd-206a9713777d"]
+Cell[1646181, 27905, 285, 6, 55, "Text",ExpressionUUID->"35b8ac63-cb0e-45bb-bdfd-206a9713777d"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1646966, 27933, 172, 3, 66, "Section",ExpressionUUID->"6a14b9f6-1f51-4d15-970f-8b43db0157ad"],
+Cell[1646515, 27917, 172, 3, 66, "Section",ExpressionUUID->"6a14b9f6-1f51-4d15-970f-8b43db0157ad"],
 Cell[CellGroupData[{
-Cell[1647163, 27940, 162, 3, 53, "Subsection",ExpressionUUID->"62e2b1dc-2f6b-4391-987d-5849f5220b20"],
-Cell[1647328, 27945, 329, 7, 55, "Text",ExpressionUUID->"5e2d0b77-c270-451e-804d-c07b18b8a4b7"],
-Cell[1647660, 27954, 147, 3, 30, "Item",ExpressionUUID->"cfc78592-d85a-4d80-8170-9656da7abaae"],
-Cell[1647810, 27959, 148, 3, 30, "Item",ExpressionUUID->"55ba5c62-1d81-4e9c-af5f-a147d29cbb0c"],
-Cell[1647961, 27964, 172, 3, 30, "Item",ExpressionUUID->"30d0d673-e973-43c5-94fd-4f0391ee2756"],
-Cell[1648136, 27969, 202, 3, 30, "Item",ExpressionUUID->"c12bbb7a-3267-4789-8d36-c9c0489ca900"],
+Cell[1646712, 27924, 162, 3, 53, "Subsection",ExpressionUUID->"62e2b1dc-2f6b-4391-987d-5849f5220b20"],
+Cell[1646877, 27929, 329, 7, 55, "Text",ExpressionUUID->"5e2d0b77-c270-451e-804d-c07b18b8a4b7"],
+Cell[1647209, 27938, 147, 3, 30, "Item",ExpressionUUID->"cfc78592-d85a-4d80-8170-9656da7abaae"],
+Cell[1647359, 27943, 148, 3, 30, "Item",ExpressionUUID->"55ba5c62-1d81-4e9c-af5f-a147d29cbb0c"],
+Cell[1647510, 27948, 172, 3, 30, "Item",ExpressionUUID->"30d0d673-e973-43c5-94fd-4f0391ee2756"],
+Cell[1647685, 27953, 202, 3, 30, "Item",ExpressionUUID->"c12bbb7a-3267-4789-8d36-c9c0489ca900"],
 Cell[CellGroupData[{
-Cell[1648363, 27976, 164, 3, 30, "Item",ExpressionUUID->"143b499b-efbe-48ce-8bdd-5d29b7a9e138"],
-Cell[1648530, 27981, 924, 27, 192, "Input",ExpressionUUID->"f774c3cf-c679-47a1-994e-a3214e8b4560"]
+Cell[1647912, 27960, 164, 3, 30, "Item",ExpressionUUID->"143b499b-efbe-48ce-8bdd-5d29b7a9e138"],
+Cell[1648079, 27965, 924, 27, 192, "Input",ExpressionUUID->"f774c3cf-c679-47a1-994e-a3214e8b4560"]
 }, Open  ]],
-Cell[1649469, 28011, 413, 8, 55, "Text",ExpressionUUID->"e882cc15-71df-42e6-8741-7659c61d4e21"],
-Cell[1649885, 28021, 349, 10, 29, "Input",ExpressionUUID->"9b2e69ac-6fad-41ee-8a7e-4db636004e9a"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1650271, 28036, 228, 4, 53, "Subsection",ExpressionUUID->"b0942973-865c-4c28-964c-1707cf768101"],
-Cell[1650502, 28042, 427, 10, 55, "Text",ExpressionUUID->"3c04a932-cab7-4942-b3dd-60a17bd46119"],
-Cell[CellGroupData[{
-Cell[1650954, 28056, 214, 4, 43, "Subsubsection",ExpressionUUID->"3267bde5-2938-4ee3-bc9f-b7348fbb51bb"],
-Cell[1651171, 28062, 307, 7, 33, "Text",ExpressionUUID->"2263c7db-b831-4b7a-b9a3-7b0f43401c2a"],
-Cell[1651481, 28071, 339, 13, 36, "CodeText",ExpressionUUID->"d7052e91-6635-4dd4-b210-ca9549671aa2"],
-Cell[1651823, 28086, 935, 28, 31, "Text",ExpressionUUID->"ffff1b10-2f6f-4091-8dbc-9ae439d24961"],
-Cell[1652761, 28116, 975, 24, 99, "Text",ExpressionUUID->"fa40d023-cdac-4353-8bb5-0186b79afbfe"],
-Cell[1653739, 28142, 1215, 23, 121, "Text",ExpressionUUID->"7b4aa123-0088-4c8f-90b6-8da76dd7fe83"]
+Cell[1649018, 27995, 413, 8, 55, "Text",ExpressionUUID->"e882cc15-71df-42e6-8741-7659c61d4e21"],
+Cell[1649434, 28005, 349, 10, 29, "Input",ExpressionUUID->"9b2e69ac-6fad-41ee-8a7e-4db636004e9a"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1654991, 28170, 178, 3, 43, "Subsubsection",ExpressionUUID->"5eba054a-dc28-4af4-b835-42b4ad11f33b"],
-Cell[1655172, 28175, 1879, 57, 107, "Code",ExpressionUUID->"0fa499dc-590d-4eac-8caa-b77f4c9c0c3c"],
-Cell[1657054, 28234, 14205, 329, 1173, "Input",ExpressionUUID->"358f0d2d-612e-450e-9d2a-471668f6960c"]
+Cell[1649820, 28020, 228, 4, 53, "Subsection",ExpressionUUID->"b0942973-865c-4c28-964c-1707cf768101"],
+Cell[1650051, 28026, 427, 10, 55, "Text",ExpressionUUID->"3c04a932-cab7-4942-b3dd-60a17bd46119"],
+Cell[CellGroupData[{
+Cell[1650503, 28040, 214, 4, 43, "Subsubsection",ExpressionUUID->"3267bde5-2938-4ee3-bc9f-b7348fbb51bb"],
+Cell[1650720, 28046, 307, 7, 33, "Text",ExpressionUUID->"2263c7db-b831-4b7a-b9a3-7b0f43401c2a"],
+Cell[1651030, 28055, 339, 13, 36, "CodeText",ExpressionUUID->"d7052e91-6635-4dd4-b210-ca9549671aa2"],
+Cell[1651372, 28070, 935, 28, 31, "Text",ExpressionUUID->"ffff1b10-2f6f-4091-8dbc-9ae439d24961"],
+Cell[1652310, 28100, 975, 24, 99, "Text",ExpressionUUID->"fa40d023-cdac-4353-8bb5-0186b79afbfe"],
+Cell[1653288, 28126, 1215, 23, 121, "Text",ExpressionUUID->"7b4aa123-0088-4c8f-90b6-8da76dd7fe83"],
+Cell[1654506, 28151, 1879, 57, 107, "Code",ExpressionUUID->"0fa499dc-590d-4eac-8caa-b77f4c9c0c3c"],
+Cell[1656388, 28210, 14205, 329, 1173, "Input",ExpressionUUID->"358f0d2d-612e-450e-9d2a-471668f6960c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1671308, 28569, 172, 3, 53, "Subsection",ExpressionUUID->"40df12d2-08ef-4973-bee4-606a3285d5bc"],
-Cell[1671483, 28574, 218, 5, 33, "Text",ExpressionUUID->"668f87bb-2be8-4928-86a3-c019b1027126"],
-Cell[1671704, 28581, 193, 3, 36, "CodeText",ExpressionUUID->"ae35e828-8065-4b7b-bbf9-159d49af59fc"],
-Cell[1671900, 28586, 610, 12, 49, "Input",ExpressionUUID->"f238f590-cb32-46e9-953f-7d5743eeeb5c"],
-Cell[1672513, 28600, 278, 6, 55, "Text",ExpressionUUID->"0d2efbc3-5dc7-4f90-a604-f63780f9082f"],
-Cell[1672794, 28608, 317, 9, 36, "CodeText",ExpressionUUID->"35ac970a-4f66-4279-97ce-47f757fc1370"],
-Cell[1673114, 28619, 2085, 58, 131, "Input",ExpressionUUID->"1d0fc8b6-15a4-4cc3-a9a6-8f23ec61bc2b"],
-Cell[1675202, 28679, 383, 7, 55, "Text",ExpressionUUID->"6326fe94-d172-4c76-bb36-c07547bf1f83"],
+Cell[1670642, 28545, 172, 3, 53, "Subsection",ExpressionUUID->"40df12d2-08ef-4973-bee4-606a3285d5bc"],
+Cell[1670817, 28550, 218, 5, 33, "Text",ExpressionUUID->"668f87bb-2be8-4928-86a3-c019b1027126"],
+Cell[1671038, 28557, 193, 3, 36, "CodeText",ExpressionUUID->"ae35e828-8065-4b7b-bbf9-159d49af59fc"],
+Cell[1671234, 28562, 610, 12, 49, "Input",ExpressionUUID->"f238f590-cb32-46e9-953f-7d5743eeeb5c"],
+Cell[1671847, 28576, 278, 6, 55, "Text",ExpressionUUID->"0d2efbc3-5dc7-4f90-a604-f63780f9082f"],
+Cell[1672128, 28584, 317, 9, 36, "CodeText",ExpressionUUID->"35ac970a-4f66-4279-97ce-47f757fc1370"],
+Cell[1672448, 28595, 2085, 58, 131, "Input",ExpressionUUID->"1d0fc8b6-15a4-4cc3-a9a6-8f23ec61bc2b"],
+Cell[1674536, 28655, 383, 7, 55, "Text",ExpressionUUID->"6326fe94-d172-4c76-bb36-c07547bf1f83"],
 Cell[CellGroupData[{
-Cell[1675610, 28690, 163, 3, 43, "Subsubsection",ExpressionUUID->"20a13fac-a5c6-4be5-ba7a-58c66a6b75bb"],
-Cell[1675776, 28695, 359, 10, 33, "Text",ExpressionUUID->"846c93af-fe31-42a7-9556-4e4a98640e59"],
-Cell[1676138, 28707, 192, 3, 36, "CodeText",ExpressionUUID->"21a419d0-c341-4abc-87c3-1dd17e8f44f2"],
+Cell[1674944, 28666, 163, 3, 43, "Subsubsection",ExpressionUUID->"20a13fac-a5c6-4be5-ba7a-58c66a6b75bb"],
+Cell[1675110, 28671, 359, 10, 33, "Text",ExpressionUUID->"846c93af-fe31-42a7-9556-4e4a98640e59"],
+Cell[1675472, 28683, 192, 3, 36, "CodeText",ExpressionUUID->"21a419d0-c341-4abc-87c3-1dd17e8f44f2"],
 Cell[CellGroupData[{
-Cell[1676355, 28714, 470, 10, 29, "Input",ExpressionUUID->"e1c0a651-7464-4bfe-bc44-e27763a09c1e"],
-Cell[1676828, 28726, 2908, 56, 376, "Output",ExpressionUUID->"3db5dd15-74f5-45a7-99cb-5e612754bb93"]
+Cell[1675689, 28690, 470, 10, 29, "Input",ExpressionUUID->"e1c0a651-7464-4bfe-bc44-e27763a09c1e"],
+Cell[1676162, 28702, 2908, 56, 376, "Output",ExpressionUUID->"3db5dd15-74f5-45a7-99cb-5e612754bb93"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1679809, 28790, 345, 5, 66, "Section",ExpressionUUID->"08bf0bf2-1761-42a1-a1d0-c32414a0394f"],
+Cell[1679143, 28766, 345, 5, 66, "Section",ExpressionUUID->"08bf0bf2-1761-42a1-a1d0-c32414a0394f"],
 Cell[CellGroupData[{
-Cell[1680179, 28799, 171, 3, 53, "Subsection",ExpressionUUID->"2a6e2173-9b11-4726-ba6f-d114f4d75d04"],
+Cell[1679513, 28775, 171, 3, 53, "Subsection",ExpressionUUID->"2a6e2173-9b11-4726-ba6f-d114f4d75d04"],
 Cell[CellGroupData[{
-Cell[1680375, 28806, 171, 3, 43, "Subsubsection",ExpressionUUID->"f7c9fa8a-7ff6-45e7-9467-9a52a84b59fd"],
-Cell[1680549, 28811, 2649, 53, 361, "Text",ExpressionUUID->"fd1d45c5-e7d2-4b3e-975e-0dbd6cc10299"],
-Cell[1683201, 28866, 300, 4, 30, "ItemNumbered",ExpressionUUID->"30010300-9242-4e52-86a3-dc1d9d4d9b41"],
+Cell[1679709, 28782, 171, 3, 43, "Subsubsection",ExpressionUUID->"f7c9fa8a-7ff6-45e7-9467-9a52a84b59fd"],
+Cell[1679883, 28787, 2649, 53, 361, "Text",ExpressionUUID->"fd1d45c5-e7d2-4b3e-975e-0dbd6cc10299"],
+Cell[1682535, 28842, 300, 4, 30, "ItemNumbered",ExpressionUUID->"30010300-9242-4e52-86a3-dc1d9d4d9b41"],
 Cell[CellGroupData[{
-Cell[1683526, 28874, 554, 14, 50, "ItemNumbered",ExpressionUUID->"5bc808bf-1fa0-44b0-ac7f-adc696756332"],
-Cell[1684083, 28890, 399, 10, 25, "SubitemNumbered",ExpressionUUID->"131d4232-33f7-4e3e-8747-bd991b5d877d"],
-Cell[1684485, 28902, 400, 10, 25, "SubitemNumbered",ExpressionUUID->"17f62719-5396-48b2-a97c-6b4e03093b8e"]
+Cell[1682860, 28850, 554, 14, 50, "ItemNumbered",ExpressionUUID->"5bc808bf-1fa0-44b0-ac7f-adc696756332"],
+Cell[1683417, 28866, 399, 10, 25, "SubitemNumbered",ExpressionUUID->"131d4232-33f7-4e3e-8747-bd991b5d877d"],
+Cell[1683819, 28878, 400, 10, 25, "SubitemNumbered",ExpressionUUID->"17f62719-5396-48b2-a97c-6b4e03093b8e"]
 }, Open  ]],
-Cell[1684900, 28915, 766, 18, 50, "ItemNumbered",ExpressionUUID->"3eebff0e-4ec3-4260-b2f6-4982a738cfc2"],
-Cell[1685669, 28935, 212, 4, 30, "ItemNumbered",ExpressionUUID->"1c15a323-f04b-4112-a6b8-a736ce27d5ff"]
+Cell[1684234, 28891, 766, 18, 50, "ItemNumbered",ExpressionUUID->"3eebff0e-4ec3-4260-b2f6-4982a738cfc2"],
+Cell[1685003, 28911, 212, 4, 30, "ItemNumbered",ExpressionUUID->"1c15a323-f04b-4112-a6b8-a736ce27d5ff"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1685918, 28944, 227, 4, 43, "Subsubsection",ExpressionUUID->"f911e5ff-6d6b-447b-9bae-2007e82373f3"],
-Cell[1686148, 28950, 2848, 78, 233, "Input",ExpressionUUID->"63de2172-102f-42d8-9655-f3deee7f7056"]
+Cell[1685252, 28920, 227, 4, 43, "Subsubsection",ExpressionUUID->"f911e5ff-6d6b-447b-9bae-2007e82373f3"],
+Cell[1685482, 28926, 2848, 78, 233, "Input",ExpressionUUID->"63de2172-102f-42d8-9655-f3deee7f7056"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1689045, 29034, 172, 3, 53, "Subsection",ExpressionUUID->"b552b717-e9fb-4c64-a86b-9f89d46fcc6f"],
-Cell[1689220, 29039, 570, 13, 99, "Text",ExpressionUUID->"90b387ba-e41d-404d-8f5d-87dbc9262b8f"],
-Cell[1689793, 29054, 155, 3, 30, "Item",ExpressionUUID->"539773b9-5501-4aae-bde9-364d3f13ab50"],
-Cell[1689951, 29059, 152, 3, 30, "Item",ExpressionUUID->"95f9814e-c639-4115-9653-663ce6e8c15e"],
-Cell[1690106, 29064, 152, 3, 30, "Item",ExpressionUUID->"bb145c03-e03f-4300-8f3f-0535b3f404f6"],
-Cell[1690261, 29069, 152, 3, 30, "Item",ExpressionUUID->"47e44f3a-26a0-42fd-972f-0f9c06bbbadd"],
-Cell[1690416, 29074, 146, 3, 30, "Item",ExpressionUUID->"a5838a13-d27c-437a-af2e-c94702878730"],
-Cell[1690565, 29079, 976, 17, 186, "Text",ExpressionUUID->"02e66bed-4764-49c8-8ace-e3a4658a58a5"],
-Cell[1691544, 29098, 421, 8, 77, "Text",ExpressionUUID->"90be0c69-0932-4766-8c4d-4f1d13b89194"],
-Cell[1691968, 29108, 670, 13, 121, "Text",ExpressionUUID->"1058744f-3502-4d77-8588-db051914bc90"],
-Cell[1692641, 29123, 203, 3, 30, "Item",ExpressionUUID->"7008e087-9b7a-488c-aebf-bc1cc6d46ee9"],
-Cell[1692847, 29128, 247, 4, 30, "Item",ExpressionUUID->"ae2c283c-747e-483f-acfe-c55b025ea156"],
-Cell[1693097, 29134, 249, 4, 30, "Item",ExpressionUUID->"9d819ac0-1ba3-414a-a43d-a2e665ec33b5"],
-Cell[1693349, 29140, 367, 7, 55, "Text",ExpressionUUID->"01cd9c31-f777-497b-9d5b-a4e85a1dfd84"],
-Cell[1693719, 29149, 687, 21, 70, "Input",ExpressionUUID->"d6e4f312-a15c-4918-8761-0b0835e9249b"],
-Cell[1694409, 29172, 3606, 101, 478, "Input",ExpressionUUID->"4351af7e-32c5-4467-9538-6b866b0b2eaa"],
-Cell[1698018, 29275, 569, 11, 77, "Text",ExpressionUUID->"a4fcd053-49a8-4959-95c4-cb9300055d28"]
+Cell[1688379, 29010, 172, 3, 53, "Subsection",ExpressionUUID->"b552b717-e9fb-4c64-a86b-9f89d46fcc6f"],
+Cell[1688554, 29015, 570, 13, 99, "Text",ExpressionUUID->"90b387ba-e41d-404d-8f5d-87dbc9262b8f"],
+Cell[1689127, 29030, 155, 3, 30, "Item",ExpressionUUID->"539773b9-5501-4aae-bde9-364d3f13ab50"],
+Cell[1689285, 29035, 152, 3, 30, "Item",ExpressionUUID->"95f9814e-c639-4115-9653-663ce6e8c15e"],
+Cell[1689440, 29040, 152, 3, 30, "Item",ExpressionUUID->"bb145c03-e03f-4300-8f3f-0535b3f404f6"],
+Cell[1689595, 29045, 152, 3, 30, "Item",ExpressionUUID->"47e44f3a-26a0-42fd-972f-0f9c06bbbadd"],
+Cell[1689750, 29050, 146, 3, 30, "Item",ExpressionUUID->"a5838a13-d27c-437a-af2e-c94702878730"],
+Cell[1689899, 29055, 976, 17, 186, "Text",ExpressionUUID->"02e66bed-4764-49c8-8ace-e3a4658a58a5"],
+Cell[1690878, 29074, 421, 8, 77, "Text",ExpressionUUID->"90be0c69-0932-4766-8c4d-4f1d13b89194"],
+Cell[1691302, 29084, 670, 13, 121, "Text",ExpressionUUID->"1058744f-3502-4d77-8588-db051914bc90"],
+Cell[1691975, 29099, 203, 3, 30, "Item",ExpressionUUID->"7008e087-9b7a-488c-aebf-bc1cc6d46ee9"],
+Cell[1692181, 29104, 247, 4, 30, "Item",ExpressionUUID->"ae2c283c-747e-483f-acfe-c55b025ea156"],
+Cell[1692431, 29110, 249, 4, 30, "Item",ExpressionUUID->"9d819ac0-1ba3-414a-a43d-a2e665ec33b5"],
+Cell[1692683, 29116, 367, 7, 55, "Text",ExpressionUUID->"01cd9c31-f777-497b-9d5b-a4e85a1dfd84"],
+Cell[1693053, 29125, 687, 21, 70, "Input",ExpressionUUID->"d6e4f312-a15c-4918-8761-0b0835e9249b"],
+Cell[1693743, 29148, 3606, 101, 478, "Input",ExpressionUUID->"4351af7e-32c5-4467-9538-6b866b0b2eaa"],
+Cell[1697352, 29251, 569, 11, 77, "Text",ExpressionUUID->"a4fcd053-49a8-4959-95c4-cb9300055d28"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1698624, 29291, 169, 3, 53, "Subsection",ExpressionUUID->"29baa2b1-3c47-4edc-ab22-bd770f9f3682"],
-Cell[1698796, 29296, 314, 7, 33, "Text",ExpressionUUID->"4fdd5d82-6ec9-4205-8222-7fb6010b5323"],
+Cell[1697958, 29267, 169, 3, 53, "Subsection",ExpressionUUID->"29baa2b1-3c47-4edc-ab22-bd770f9f3682"],
+Cell[1698130, 29272, 314, 7, 33, "Text",ExpressionUUID->"4fdd5d82-6ec9-4205-8222-7fb6010b5323"],
 Cell[CellGroupData[{
-Cell[1699135, 29307, 244, 4, 43, "Subsubsection",ExpressionUUID->"a4b80dc1-0ce5-4b63-9998-f10a470f41a7"],
-Cell[1699382, 29313, 1420, 33, 164, "Text",ExpressionUUID->"502b9d79-4522-4a93-96eb-f617c3a1a121"],
-Cell[1700805, 29348, 274, 6, 36, "CodeText",ExpressionUUID->"b40a92b9-fb44-4c84-9195-25d13f1ccc55"],
-Cell[1701082, 29356, 1827, 40, 151, "Input",ExpressionUUID->"3379ef23-c751-4ba7-99c9-2bf894b0e761"],
-Cell[1702912, 29398, 484, 10, 55, "Text",ExpressionUUID->"8d4ed6bd-11db-4255-b2e3-e377e95c9808"],
-Cell[1703399, 29410, 330, 7, 56, "CodeText",ExpressionUUID->"f44889ef-0802-47d7-a102-a159e9ee71aa"],
-Cell[1703732, 29419, 2031, 56, 131, "Input",ExpressionUUID->"64fe9fa2-e0ee-4a4a-9f64-ef4b802b8748"],
-Cell[1705766, 29477, 950, 20, 99, "Text",ExpressionUUID->"dbc7523f-0636-4582-97e4-6272bd47b8d6"],
-Cell[1706719, 29499, 374, 8, 56, "CodeText",ExpressionUUID->"d2ab21e4-466f-4d79-95af-47fc5267a8f5"],
+Cell[1698469, 29283, 244, 4, 43, "Subsubsection",ExpressionUUID->"a4b80dc1-0ce5-4b63-9998-f10a470f41a7"],
+Cell[1698716, 29289, 1420, 33, 164, "Text",ExpressionUUID->"502b9d79-4522-4a93-96eb-f617c3a1a121"],
+Cell[1700139, 29324, 274, 6, 36, "CodeText",ExpressionUUID->"b40a92b9-fb44-4c84-9195-25d13f1ccc55"],
+Cell[1700416, 29332, 1827, 40, 151, "Input",ExpressionUUID->"3379ef23-c751-4ba7-99c9-2bf894b0e761"],
+Cell[1702246, 29374, 484, 10, 55, "Text",ExpressionUUID->"8d4ed6bd-11db-4255-b2e3-e377e95c9808"],
+Cell[1702733, 29386, 330, 7, 56, "CodeText",ExpressionUUID->"f44889ef-0802-47d7-a102-a159e9ee71aa"],
+Cell[1703066, 29395, 2031, 56, 131, "Input",ExpressionUUID->"64fe9fa2-e0ee-4a4a-9f64-ef4b802b8748"],
+Cell[1705100, 29453, 950, 20, 99, "Text",ExpressionUUID->"dbc7523f-0636-4582-97e4-6272bd47b8d6"],
+Cell[1706053, 29475, 374, 8, 56, "CodeText",ExpressionUUID->"d2ab21e4-466f-4d79-95af-47fc5267a8f5"],
 Cell[CellGroupData[{
-Cell[1707118, 29511, 1286, 33, 90, "Input",ExpressionUUID->"df7cd137-a177-4ad8-9764-c358cee41da7"],
-Cell[1708407, 29546, 1231, 29, 53, "Output",ExpressionUUID->"5769f2b2-d181-411e-93db-107eba2dfb00"]
+Cell[1706452, 29487, 1286, 33, 90, "Input",ExpressionUUID->"df7cd137-a177-4ad8-9764-c358cee41da7"],
+Cell[1707741, 29522, 1231, 29, 53, "Output",ExpressionUUID->"5769f2b2-d181-411e-93db-107eba2dfb00"]
 }, Open  ]],
-Cell[1709653, 29578, 346, 7, 55, "Text",ExpressionUUID->"18addbe1-805c-4f8c-9c6b-225205904573"],
-Cell[1710002, 29587, 259, 6, 36, "CodeText",ExpressionUUID->"448c8946-54c2-4ae9-9a45-ba7145261328"],
-Cell[1710264, 29595, 1172, 34, 70, "Input",ExpressionUUID->"883297be-b90f-4d38-811c-6ad5268ea082"],
-Cell[1711439, 29631, 195, 3, 36, "CodeText",ExpressionUUID->"a2eac075-1f4d-44a3-9fcb-8450b9115f38"],
-Cell[1711637, 29636, 342, 10, 29, "Input",ExpressionUUID->"832cc462-e001-4dc6-a8c1-f03456cfb9f0"],
-Cell[1711982, 29648, 314, 7, 33, "Text",ExpressionUUID->"53e4acfb-3176-4201-be1b-46ea6d906a8f"],
-Cell[1712299, 29657, 220, 5, 36, "CodeText",ExpressionUUID->"f1497ba7-39b0-49ac-abda-0c77c5b8bab4"],
+Cell[1708987, 29554, 346, 7, 55, "Text",ExpressionUUID->"18addbe1-805c-4f8c-9c6b-225205904573"],
+Cell[1709336, 29563, 259, 6, 36, "CodeText",ExpressionUUID->"448c8946-54c2-4ae9-9a45-ba7145261328"],
+Cell[1709598, 29571, 1172, 34, 70, "Input",ExpressionUUID->"883297be-b90f-4d38-811c-6ad5268ea082"],
+Cell[1710773, 29607, 195, 3, 36, "CodeText",ExpressionUUID->"a2eac075-1f4d-44a3-9fcb-8450b9115f38"],
+Cell[1710971, 29612, 342, 10, 29, "Input",ExpressionUUID->"832cc462-e001-4dc6-a8c1-f03456cfb9f0"],
+Cell[1711316, 29624, 314, 7, 33, "Text",ExpressionUUID->"53e4acfb-3176-4201-be1b-46ea6d906a8f"],
+Cell[1711633, 29633, 220, 5, 36, "CodeText",ExpressionUUID->"f1497ba7-39b0-49ac-abda-0c77c5b8bab4"],
 Cell[CellGroupData[{
-Cell[1712544, 29666, 407, 10, 29, "Input",ExpressionUUID->"234c5b8d-2272-4843-8269-d7c02ac0db1d"],
-Cell[1712954, 29678, 15796, 265, 376, "Output",ExpressionUUID->"1ed62bb6-7ba6-4ec2-82cd-fdb61e6f02c2"]
+Cell[1711878, 29642, 407, 10, 29, "Input",ExpressionUUID->"234c5b8d-2272-4843-8269-d7c02ac0db1d"],
+Cell[1712288, 29654, 15796, 265, 376, "Output",ExpressionUUID->"1ed62bb6-7ba6-4ec2-82cd-fdb61e6f02c2"]
 }, Open  ]]
-}, Open  ]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1728823, 29951, 223, 4, 66, "Section",ExpressionUUID->"5053ff2a-e9f0-4bf1-abf5-035def71382f"],
-Cell[1729049, 29957, 456, 10, 121, "Text",ExpressionUUID->"97b56f17-c724-459d-ab15-89ab6d15228e"],
-Cell[1729508, 29969, 201, 3, 36, "CodeText",ExpressionUUID->"b056c2b9-ea19-4da6-9e15-a72cf8b21272"],
-Cell[1729712, 29974, 1811, 35, 70, "Input",ExpressionUUID->"c4ccccde-d6e9-43f7-8704-d24eb0624380"],
-Cell[1731526, 30011, 648, 16, 77, "Text",ExpressionUUID->"39445491-f040-475d-97b5-c5bf979ae083"],
-Cell[1732177, 30029, 220, 5, 36, "CodeText",ExpressionUUID->"947e2a8f-2d82-4613-bab7-4904afa1cf7f"],
-Cell[1732400, 30036, 683, 22, 49, "Input",ExpressionUUID->"966bd98c-e60c-4731-a015-93b41112f30f"],
-Cell[CellGroupData[{
-Cell[1733108, 30062, 272, 4, 43, "Subsubsection",ExpressionUUID->"d0d64318-f882-40d8-a2d3-bb79c350b227"],
-Cell[1733383, 30068, 339, 7, 55, "Text",ExpressionUUID->"1a7ffc90-05e7-4f90-8c34-519a22acb4f7"],
-Cell[1733725, 30077, 9181, 197, 128, "Input",ExpressionUUID->"6e3a2cd6-e2ad-41f3-8b19-0d86d8229852"],
-Cell[1742909, 30276, 306, 7, 55, "Text",ExpressionUUID->"bac3db88-327b-4c69-ac67-5b4b1171b6ac"],
-Cell[1743218, 30285, 173, 3, 36, "CodeText",ExpressionUUID->"8d9fab0c-c844-43c7-8acc-155df1fb9235"],
-Cell[CellGroupData[{
-Cell[1743416, 30292, 285, 5, 29, "Input",ExpressionUUID->"db24c5d5-e7eb-4bf1-b50b-a96f68e6b642"],
-Cell[1743704, 30299, 13102, 250, 415, "Output",ExpressionUUID->"910d12cc-379b-4ef0-8bf8-42c4ce33ba39"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1756855, 30555, 200, 3, 53, "Subsection",ExpressionUUID->"37c5899a-3803-4b8a-b205-6ca7d3b72579"],
-Cell[1757058, 30560, 477, 10, 99, "Text",ExpressionUUID->"1ef025af-81c7-4f5c-a94b-120f6fa5d6da"],
-Cell[1757538, 30572, 194, 3, 36, "CodeText",ExpressionUUID->"5c717360-b01e-4049-9845-2e073d78d62e"],
-Cell[1757735, 30577, 1044, 23, 111, "Input",ExpressionUUID->"a51de177-a36f-4b66-9de5-c9c552e6be5a"],
-Cell[1758782, 30602, 368, 10, 33, "Text",ExpressionUUID->"fc087964-5976-409d-bbd8-2a3507b482d0"],
-Cell[1759153, 30614, 254, 6, 36, "CodeText",ExpressionUUID->"e40cdbb1-76aa-4d10-89dc-09d0ae81e3cb"],
-Cell[1759410, 30622, 581, 15, 70, "Input",ExpressionUUID->"2a90590d-e68e-46dd-8686-22a731625c11"],
-Cell[1759994, 30639, 361, 9, 33, "Text",ExpressionUUID->"81709774-65fa-4274-9b4a-4602dffe1008"],
-Cell[1760358, 30650, 256, 6, 36, "CodeText",ExpressionUUID->"98b1221c-7cba-4ca3-bb3b-f7ea5d914bc0"],
-Cell[1760617, 30658, 2651, 59, 70, "Input",ExpressionUUID->"ffb04e6f-a8e8-4661-981c-5cdeaca41349"],
-Cell[1763271, 30719, 370, 7, 55, "Text",ExpressionUUID->"dfebda95-3075-49b4-ad1c-dbab183d0041"],
-Cell[1763644, 30728, 315, 7, 56, "CodeText",ExpressionUUID->"0aaf082e-9284-433e-a9b5-66b72b93ace1"],
-Cell[1763962, 30737, 3772, 104, 233, "Input",ExpressionUUID->"e844117d-eb64-4f52-9f30-e00018df35e1"],
-Cell[1767737, 30843, 325, 7, 55, "Text",ExpressionUUID->"9efbf888-8280-4368-ad65-e26fd15f0e96"],
-Cell[1768065, 30852, 259, 6, 36, "CodeText",ExpressionUUID->"45e0a4cc-db3b-455e-b501-18114eb4a4bd"],
-Cell[1768327, 30860, 1297, 32, 70, "Input",ExpressionUUID->"8cbe5470-a98b-4fc9-8173-eeaa4ee0ecb5"],
-Cell[1769627, 30894, 328, 7, 55, "Text",ExpressionUUID->"906b6330-a483-48ac-b3e5-5d7e3a1c4cd6"]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[1770004, 30907, 158, 3, 66, "Section",ExpressionUUID->"de247da3-106a-43aa-92ec-b51b8883beda"],
-Cell[CellGroupData[{
-Cell[1770187, 30914, 219, 4, 53, "Subsection",ExpressionUUID->"5fb051a3-07dd-48a3-a673-ad89c1a7782c"],
-Cell[1770409, 30920, 314, 9, 33, "Text",ExpressionUUID->"cda2ae36-0b78-4fe7-8c1c-f19aeeb163ae"],
-Cell[1770726, 30931, 163, 3, 36, "CodeText",ExpressionUUID->"14fbe266-4204-4f1f-bb15-07f950c20c04"],
-Cell[CellGroupData[{
-Cell[1770914, 30938, 662, 13, 29, "Input",ExpressionUUID->"f4d68521-a289-4640-bf7e-5ed165651966"],
-Cell[1771579, 30953, 676574, 11155, 1108, 267237, 4443, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"262da8b1-5140-4da9-a430-eb4c945fa883"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2448214, 42115, 218, 4, 66, "Section",ExpressionUUID->"f04392a6-8df2-4738-b770-002c05e0a920"],
-Cell[2448435, 42121, 720, 14, 143, "Text",ExpressionUUID->"e1de9035-e1cd-45e3-bc08-ed94ad5a6ae8"]
-}, Open  ]],
+Cell[1728157, 29927, 223, 4, 66, "Section",ExpressionUUID->"5053ff2a-e9f0-4bf1-abf5-035def71382f"],
+Cell[1728383, 29933, 456, 10, 121, "Text",ExpressionUUID->"97b56f17-c724-459d-ab15-89ab6d15228e"],
+Cell[1728842, 29945, 201, 3, 36, "CodeText",ExpressionUUID->"b056c2b9-ea19-4da6-9e15-a72cf8b21272"],
+Cell[1729046, 29950, 1811, 35, 70, "Input",ExpressionUUID->"c4ccccde-d6e9-43f7-8704-d24eb0624380"],
+Cell[1730860, 29987, 648, 16, 77, "Text",ExpressionUUID->"39445491-f040-475d-97b5-c5bf979ae083"],
+Cell[1731511, 30005, 220, 5, 36, "CodeText",ExpressionUUID->"947e2a8f-2d82-4613-bab7-4904afa1cf7f"],
+Cell[1731734, 30012, 683, 22, 49, "Input",ExpressionUUID->"966bd98c-e60c-4731-a015-93b41112f30f"],
 Cell[CellGroupData[{
-Cell[2449192, 42140, 161, 3, 66, "Section",ExpressionUUID->"c83947d1-8ca9-4e8f-95e0-f9e83f3612bf"],
-Cell[2449356, 42145, 294, 6, 55, "Text",ExpressionUUID->"6a23d98d-2d93-4113-b06a-25116c1b1a38"]
-}, Open  ]],
+Cell[1732442, 30038, 272, 4, 43, "Subsubsection",ExpressionUUID->"d0d64318-f882-40d8-a2d3-bb79c350b227"],
+Cell[1732717, 30044, 339, 7, 55, "Text",ExpressionUUID->"1a7ffc90-05e7-4f90-8c34-519a22acb4f7"],
+Cell[1733059, 30053, 9181, 197, 128, "Input",ExpressionUUID->"6e3a2cd6-e2ad-41f3-8b19-0d86d8229852"],
+Cell[1742243, 30252, 306, 7, 55, "Text",ExpressionUUID->"bac3db88-327b-4c69-ac67-5b4b1171b6ac"],
+Cell[1742552, 30261, 173, 3, 36, "CodeText",ExpressionUUID->"8d9fab0c-c844-43c7-8acc-155df1fb9235"],
 Cell[CellGroupData[{
-Cell[2449687, 42156, 156, 3, 66, "Section",ExpressionUUID->"4826c161-326b-4cf7-8b92-f83497f69c70"],
-Cell[2449846, 42161, 667, 12, 30, "ItemNumbered",ExpressionUUID->"03fd357d-8c3f-40d9-a247-e2cd0366354d"],
-Cell[2450516, 42175, 730, 13, 50, "ItemNumbered",ExpressionUUID->"943ef250-850a-4f18-9155-ca282e14b044"],
-Cell[2451249, 42190, 643, 12, 30, "ItemNumbered",ExpressionUUID->"0fa37ed0-e7fd-4ff5-9725-73ce8316305f"],
-Cell[2451895, 42204, 653, 12, 50, "ItemNumbered",ExpressionUUID->"fcf28695-398c-47a4-ad99-7eb632166b5c"],
-Cell[2452551, 42218, 709, 12, 50, "ItemNumbered",ExpressionUUID->"56145001-0dc6-4fd2-942b-9248d8412fac"],
-Cell[2453263, 42232, 708, 12, 50, "ItemNumbered",ExpressionUUID->"9affceac-cf66-4069-9b37-039cfe674b32"],
-Cell[2453974, 42246, 653, 12, 50, "ItemNumbered",ExpressionUUID->"e784d100-745c-4024-ba32-cc227456b741"]
+Cell[1742750, 30268, 285, 5, 29, "Input",ExpressionUUID->"db24c5d5-e7eb-4bf1-b50b-a96f68e6b642"],
+Cell[1743038, 30275, 13102, 250, 415, "Output",ExpressionUUID->"910d12cc-379b-4ef0-8bf8-42c4ce33ba39"]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1756189, 30531, 200, 3, 53, "Subsection",ExpressionUUID->"37c5899a-3803-4b8a-b205-6ca7d3b72579"],
+Cell[1756392, 30536, 477, 10, 99, "Text",ExpressionUUID->"1ef025af-81c7-4f5c-a94b-120f6fa5d6da"],
+Cell[1756872, 30548, 194, 3, 36, "CodeText",ExpressionUUID->"5c717360-b01e-4049-9845-2e073d78d62e"],
+Cell[1757069, 30553, 1044, 23, 111, "Input",ExpressionUUID->"a51de177-a36f-4b66-9de5-c9c552e6be5a"],
+Cell[1758116, 30578, 368, 10, 33, "Text",ExpressionUUID->"fc087964-5976-409d-bbd8-2a3507b482d0"],
+Cell[1758487, 30590, 254, 6, 36, "CodeText",ExpressionUUID->"e40cdbb1-76aa-4d10-89dc-09d0ae81e3cb"],
+Cell[1758744, 30598, 581, 15, 70, "Input",ExpressionUUID->"2a90590d-e68e-46dd-8686-22a731625c11"],
+Cell[1759328, 30615, 361, 9, 33, "Text",ExpressionUUID->"81709774-65fa-4274-9b4a-4602dffe1008"],
+Cell[1759692, 30626, 256, 6, 36, "CodeText",ExpressionUUID->"98b1221c-7cba-4ca3-bb3b-f7ea5d914bc0"],
+Cell[1759951, 30634, 2651, 59, 70, "Input",ExpressionUUID->"ffb04e6f-a8e8-4661-981c-5cdeaca41349"],
+Cell[1762605, 30695, 370, 7, 55, "Text",ExpressionUUID->"dfebda95-3075-49b4-ad1c-dbab183d0041"],
+Cell[1762978, 30704, 315, 7, 56, "CodeText",ExpressionUUID->"0aaf082e-9284-433e-a9b5-66b72b93ace1"],
+Cell[1763296, 30713, 3772, 104, 233, "Input",ExpressionUUID->"e844117d-eb64-4f52-9f30-e00018df35e1"],
+Cell[1767071, 30819, 325, 7, 55, "Text",ExpressionUUID->"9efbf888-8280-4368-ad65-e26fd15f0e96"],
+Cell[1767399, 30828, 259, 6, 36, "CodeText",ExpressionUUID->"45e0a4cc-db3b-455e-b501-18114eb4a4bd"],
+Cell[1767661, 30836, 1297, 32, 70, "Input",ExpressionUUID->"8cbe5470-a98b-4fc9-8173-eeaa4ee0ecb5"],
+Cell[1768961, 30870, 328, 7, 55, "Text",ExpressionUUID->"906b6330-a483-48ac-b3e5-5d7e3a1c4cd6"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1769338, 30883, 158, 3, 66, "Section",ExpressionUUID->"de247da3-106a-43aa-92ec-b51b8883beda"],
+Cell[CellGroupData[{
+Cell[1769521, 30890, 219, 4, 53, "Subsection",ExpressionUUID->"5fb051a3-07dd-48a3-a673-ad89c1a7782c"],
+Cell[1769743, 30896, 314, 9, 33, "Text",ExpressionUUID->"cda2ae36-0b78-4fe7-8c1c-f19aeeb163ae"],
+Cell[1770060, 30907, 163, 3, 36, "CodeText",ExpressionUUID->"14fbe266-4204-4f1f-bb15-07f950c20c04"],
+Cell[CellGroupData[{
+Cell[1770248, 30914, 662, 13, 29, "Input",ExpressionUUID->"f4d68521-a289-4640-bf7e-5ed165651966"],
+Cell[1770913, 30929, 676574, 11155, 1108, 267237, 4443, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"262da8b1-5140-4da9-a430-eb4c945fa883"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2447548, 42091, 218, 4, 66, "Section",ExpressionUUID->"f04392a6-8df2-4738-b770-002c05e0a920"],
+Cell[2447769, 42097, 720, 14, 143, "Text",ExpressionUUID->"e1de9035-e1cd-45e3-bc08-ed94ad5a6ae8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2448526, 42116, 161, 3, 66, "Section",ExpressionUUID->"c83947d1-8ca9-4e8f-95e0-f9e83f3612bf"],
+Cell[2448690, 42121, 294, 6, 55, "Text",ExpressionUUID->"6a23d98d-2d93-4113-b06a-25116c1b1a38"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2449021, 42132, 156, 3, 66, "Section",ExpressionUUID->"4826c161-326b-4cf7-8b92-f83497f69c70"],
+Cell[2449180, 42137, 667, 12, 30, "ItemNumbered",ExpressionUUID->"03fd357d-8c3f-40d9-a247-e2cd0366354d"],
+Cell[2449850, 42151, 730, 13, 50, "ItemNumbered",ExpressionUUID->"943ef250-850a-4f18-9155-ca282e14b044"],
+Cell[2450583, 42166, 643, 12, 30, "ItemNumbered",ExpressionUUID->"0fa37ed0-e7fd-4ff5-9725-73ce8316305f"],
+Cell[2451229, 42180, 653, 12, 50, "ItemNumbered",ExpressionUUID->"fcf28695-398c-47a4-ad99-7eb632166b5c"],
+Cell[2451885, 42194, 709, 12, 50, "ItemNumbered",ExpressionUUID->"56145001-0dc6-4fd2-942b-9248d8412fac"],
+Cell[2452597, 42208, 708, 12, 50, "ItemNumbered",ExpressionUUID->"9affceac-cf66-4069-9b37-039cfe674b32"],
+Cell[2453308, 42222, 653, 12, 50, "ItemNumbered",ExpressionUUID->"e784d100-745c-4024-ba32-cc227456b741"]
 }, Open  ]]
 }
 ]
